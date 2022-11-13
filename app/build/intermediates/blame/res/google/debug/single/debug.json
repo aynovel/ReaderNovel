@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\q_icon_b.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_ranking_two.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_ranking_two.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_bg_common_white_6dp.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\bg_common_white_6dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_ranking_two.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_ranking_two.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_shape_black_7_corner_20dp.xml.flat",
@@ -20,24 +20,24 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\adapter_report_photo.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_shelf_rec_icon.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\shelf_rec_icon.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_bg_taskcenter_mask.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\bg_taskcenter_mask.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_shelf_rec_icon.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\shelf_rec_icon.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_discover_more_item.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\discover_more_item.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_fragment_rank_child.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\fragment_rank_child.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_selector_list_selector_corner_15dp.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\selector_list_selector_corner_15dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_fragment_rank_child.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\fragment_rank_child.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_add_shelf.png.flat",
@@ -72,40 +72,40 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\yre.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_shape_preferential_hint.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\shape_preferential_hint.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_activity_webview.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\activity_webview.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_dialog_download_tips.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\dialog_download_tips.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_selector_boyi_switch_orange.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\selector_boyi_switch_orange.xml"
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_ount.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\ount.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_white_00ffffff.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\white_00ffffff.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_ount.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\ount.png"
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_selector_boyi_switch_orange.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\selector_boyi_switch_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_dialog_download_tips.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\dialog_download_tips.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_activity_webview.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_shape_preferential_hint.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\shape_preferential_hint.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_line_jian.png.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\line_jian.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_layout_reward_share_dialog.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\layout_reward_share_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_sign_gift_bag.png.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_sign_gift_bag.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_layout_reward_share_dialog.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\layout_reward_share_dialog.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_discover_read_new_item.xml.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\anim\\slide_bottom_out.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_ghgh.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\ghgh.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_gold_coins_20.png.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\gold_coins_20.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_ghgh.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\ghgh.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_item_read_history.xml.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\tv_circle.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_five_pointed_star_big.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\five_pointed_star_big.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_bg_persion_bounds.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\bg_persion_bounds.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_five_pointed_star_big.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\five_pointed_star_big.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_item_work_comment_classify.xml.flat",
@@ -212,12 +212,12 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\nav_book_shelft_checked.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_update_dialog.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_update_dialog.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_reading_level3.png.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_reading_level3.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_update_dialog.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_update_dialog.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_book_shelf_item_selected.png.flat",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\discover_grid_item.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_more_chapter_no_select.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\more_chapter_no_select.png"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_activity_about_us.xml.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_more_chapter_no_select.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\more_chapter_no_select.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_fragment_discover.xml.flat",
@@ -292,24 +292,24 @@
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\add_shelf_success_button.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_activity_work_detail.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\activity_work_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_back.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_radio_button_check.xml.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\radio_button_check.xml"
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_system.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_system.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_login_facebook.png.flat",
         "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_login_facebook.png"
     },
     {
-        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_icon_system.png.flat",
-        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\icon_system.png"
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable_radio_button_check.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable\\radio_button_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\drawable-xxhdpi_back.png.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_activity_work_detail.xml.flat",
+        "source": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\src\\main\\res\\layout\\activity_work_detail.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\res\\merged\\google\\debug\\layout_pager_navigator_layout_no_scroll.xml.flat",

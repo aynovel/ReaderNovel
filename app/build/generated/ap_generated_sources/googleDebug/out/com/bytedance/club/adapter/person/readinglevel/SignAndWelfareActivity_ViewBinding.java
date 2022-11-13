@@ -10,10 +10,10 @@ import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
 import com.bytedance.club.R;
-import com.bytedance.club.magicindicator.MagicIndicator;
 import com.bytedance.club.publics.scrollweight.ScrollLayout;
 import com.bytedance.club.publics.weight.AutoRollBanner;
 import com.bytedance.club.publics.weight.LevelView;
+import com.bytedance.club.tab.MagicIndicator;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 

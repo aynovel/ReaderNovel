@@ -28,13 +28,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by newbiechen on 17-5-29.
- * 网络页面加载器
- */
+
 
 public class NetPageLoader extends PageLoader {
-    private static final String TAG = "PageFactory";
 
     private int mStartTimeStamp = 0;
 
@@ -51,15 +47,6 @@ public class NetPageLoader extends PageLoader {
         for (ChapterItemBean bean : bookChapters) {
             TxtChapter chapter = new TxtChapter();
             chapter.bookId = mCollBook.getWid();
-//            if(mCollBook.isYueWenBook())
-//            {
-//                if(mCollBook.getCurrentSiteBean() != null)
-//                {
-//                    chapter.siteId = mCollBook.getCurrentSiteBean().site;
-//                }
-//            }else{
-//                chapter.siteId = "0";
-//            }
             chapter.siteId = "0";
 
             chapter.title = bean.getChapterName();

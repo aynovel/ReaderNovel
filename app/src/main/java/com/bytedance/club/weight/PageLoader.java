@@ -47,7 +47,7 @@ import com.bytedance.club.adapter.TxtChapter;
 import com.bytedance.club.entry.BookBean;
 import com.bytedance.club.entry.BookRecordBean;
 import com.bytedance.club.sql.DBUtils;
-import com.bytedance.club.magicindicator.buildins.UIUtil;
+import com.bytedance.club.tab.buildins.UIUtil;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.entry.ParaInPageBean;
 import com.bytedance.club.interfaces.PageMode;
