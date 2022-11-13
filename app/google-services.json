@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "382261271305",
+    "project_id": "videoclub-2ded4",
+    "storage_bucket": "videoclub-2ded4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382261271305:android:dc81c84801e89b8ec911d8",
+        "android_client_info": {
+          "package_name": "com.bytedance.club"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382261271305-o8a84cl8a9evfm24cov8oljpghogkvcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bytedance.club",
+            "certificate_hash": "371c692769d7cf3ad200cc21b69e65106f700231"
+          }
+        },
+        {
+          "client_id": "382261271305-h7reisufonujamlptr9hb75bsu83oa74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7xMH4GLbITWq5saLZOCiN7pcf33M_rmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382261271305-h7reisufonujamlptr9hb75bsu83oa74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

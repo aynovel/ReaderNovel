@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bytedance.club"
+    tools:ignore="ProtectedPermissions">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="${applicationId}.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- Android8.0允许未知来源应用安装的权限 -->
+<!--    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />-->
+
+    <application
+        android:name="com.bytedance.club.PlotRead"
+        android:allowBackup="false"
+        android:icon="@drawable/logo_novel_star"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/TranslucentTheme"
+        tools:ignore="AllowBackup,Instantiatable,LockedOrientationActivity"
+        tools:replace="android:allowBackup,android:supportsRtl,android:label">
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity
+            android:name="com.bytedance.club.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="novelstar.top"
+                    android:scheme="novelstar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.bytedance.club.homepage.HomeActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="novelstar.top"
+                    android:scheme="novelstarin" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.bytedance.club.booktopup.TopUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.bytedance.club.bookbill.BillDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookbill.WalletActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookbill.BillActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookbill.ChapterUnlockActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookcase.ReadHistoryActivity"
+            android:screenOrientation="portrait" />
+
+        <!--        <activity-->
+        <!--            android:name="com.bytedance.club.ranking.RankingListFragment"-->
+        <!--            android:screenOrientation="portrait" />-->
+
+
+        <activity
+            android:name="com.bytedance.club.person.readinglevel.SignAndWelfareActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.readinglevel.SignRuleActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.readingtask.TaskDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.WorkDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.bytedance.club.bookdiscover.DiscoverMoreActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookmessage.activity.MessageDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.booklibrary.LibraryActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.CatalogActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.FansListActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.ReportActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.FansRuleActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.WorkCommentListActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.WorkCommentDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.landing.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bytedance.club.person.landing.PrivatePolicyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.landing.ServiceTermsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.ReadPreferenceSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.ui.read.NewReadEndActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.readingmsg.MessageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bytedance.club.person.readingmsg.SystemMessageDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.CommentReportActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.bookdetail.PublishWorkCommentActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.UserWorkCommentListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.AutoBuyManagerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.PushUpdateManagerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.ManagerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.AboutUsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.AccountActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.RechargeRecordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.ConsumeRecordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.VoucherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.VoucherHelpActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.OverdueVoucherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.account.VoucherExchangeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.UserInfoModifyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.booksearch.SearchActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.BoyiWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.bytedance.club.publics.Hil"
+            android:screenOrientation="portrait" />
+<!--        <activity-->
+<!--            android:name="com.bytedance.club.ireader.ui.activity.ReadActivity"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:exported="true"/>-->
+
+        <activity
+            android:name="com.bytedance.club.person.readinglevel.LevelRuleActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.ActivityRuleActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.vip.MonthVipActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.vip.MonthVipRechargeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.UserHelpActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.UserHelpDetailsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.FeedbackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.person.personcenter.JoinUsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.bytedance.club.classification.ClassifyDetailActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+
+        <activity android:name="com.bytedance.club.taskcenter.TaskCenterActivity"
+            android:screenOrientation="portrait" />
+
+
+        <!-- 新阅读页面 -->
+
+        <activity
+            android:name="com.bytedance.club.ui.read.ReadActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"/>
+
+        <!-- ********* -->
+
+
+        <!-- 相机-->
+
+        <activity
+            android:name="com.bytedance.club.imgsel.ui.ISListActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+
+        <activity
+            android:name="com.bytedance.club.imgsel.ui.ISCameraActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+
+
+<!--        <meta-data-->
+<!--            android:name="com.bytedance.club.publics.picture.KillALB"-->
+<!--            android:value="GlideModule" />-->
+
+<!--        <meta-data-->
+<!--            android:name="com.bytedance.club.publics.picture.KillALB"-->
+<!--            android:value="Download"></meta-data>-->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource" />
+            </intent-filter>
+        </activity>
+
+
+        <service android:name="com.bytedance.club.googlemessage.googlepush.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo_novel_star" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/color_000000" />
+
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider3109292776063851"
+            android:exported="true" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!--openset-->
+        <provider
+            android:name="com.kc.openset.util.OSETFileProvider"
+            android:authorities="${applicationId}.osetfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+                        <meta-data
+                            android:name="android.support.FILE_PROVIDER_PATHS"
+                            android:resource="@xml/oset_filepath" />
+        </provider>
+
+        <!--opendsp-->
+        <provider
+            android:name="com.od.util.ODFileProvider"
+            android:authorities="${applicationId}.odfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <activity android:name="com.od.reward.ODRewardVideoActivity" />
+        <!--穿山甲-->
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
+            android:authorities="${applicationId}.TTFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <!--广点通-->
+        <!-- 声明SDK所需要的组件 -->
+        <!--配置provider-->
+        <provider
+            android:name="com.qq.e.comm.GDTFileProvider"
+            android:authorities="${applicationId}.gdt.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <!--        &lt;!&ndash;sigmob&ndash;&gt;-->
+        <provider
+            android:name="com.sigmob.sdk.SigmobFileProvider"
+            android:authorities="${applicationId}.sigprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!--            <meta-data-->
+            <!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+            <!--                android:resource="@xml/sigmob_provider_paths" />-->
+        </provider>
+
+        <meta-data
+            android:name="com.huawei.hms.client.channel.androidMarket"
+            android:value="false" />
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice" />
+        </intent>
+    </queries>
+
+</manifest>

@@ -1,0 +1,61 @@
+package com.bytedance.club.classification;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.CheckBox;
+
+import com.bytedance.club.R;
+import com.bytedance.club.classification.bean.ChildCondition;
+import com.bytedance.club.publics.Constant;
+
+import java.util.List;
+
+
+public class ChildConditionAdapter extends BaseAdapter implements Constant {
+
+    private final Context context;
+    private final List<ChildCondition> conditions;
+    private int checkId;
+
+    ChildConditionAdapter(Context context, List<ChildCondition> conditions, int checkId) {
+        this.context = context;
+        this.conditions = conditions;
+        this.checkId = checkId;
+    }
+
+    public void update(int checkId) {
+        this.checkId = checkId;
+        notifyDataSetChanged();
+    }
+
+    @Override
+    public int getCount() {
+        return conditions.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View view = LayoutInflater.from(context).inflate(R.layout.item_library_screening, parent, FALSE);
+        CheckBox checkBox = view.findViewById(R.id.checkBox);
+
+        ChildCondition condition = conditions.get(position);
+        checkBox.setText(condition.title);
+        checkBox.setChecked(checkId == condition.id);
+
+        return view;
+    }
+
+}

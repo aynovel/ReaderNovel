@@ -1,1 +1,2 @@
-# ReaderNovel
+# novelstar-android
+

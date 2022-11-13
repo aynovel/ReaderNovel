@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.bytedance.club",
+  "variantName": "googleDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1000009,
+      "versionName": "1000009",
+      "enabled": true,
+      "outputFile": "app-google-debug.apk"
+    }
+  ]
+}
