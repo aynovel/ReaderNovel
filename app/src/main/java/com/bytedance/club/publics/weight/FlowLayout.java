@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bytedance.club.R;
-import com.bytedance.club.booksearch.Adapter;
+import com.bytedance.club.adapter.Adapter;
 
 
 public class FlowLayout extends ViewGroup {

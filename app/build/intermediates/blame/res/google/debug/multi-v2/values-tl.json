@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\workplace\\pn\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\763c0a5164cd011269e5a67e2246903c\\jetified-facebook-login-11.2.0\\res\\values-tl\\values-tl.xml",

@@ -3,7 +3,7 @@ package com.bytedance.club.publics.net;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.tool.JSONUtil;
 
 import org.json.JSONObject;

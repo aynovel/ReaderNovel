@@ -3,6 +3,8 @@ package com.bytedance.club.magicindicator;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 
+import com.bytedance.club.interfaces.ScrollState;
+
 
 public class NavigatorHelper {
     private final SparseBooleanArray mDeselectedItems = new SparseBooleanArray();

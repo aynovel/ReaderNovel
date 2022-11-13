@@ -7,7 +7,7 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.data.DataFetcher;
 import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.util.ContentLengthInputStream;
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.tool.LOG;
 
 import java.io.IOException;

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.ReadTaskBean;
+import com.bytedance.club.entry.ReadTaskBean;
 import com.bytedance.club.publics.tool.DisplayUtil;
 
 import java.util.List;

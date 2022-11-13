@@ -9,8 +9,8 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.TaskReword;
-import com.bytedance.club.utils.callback.ReceviedRewardCallBack;
+import com.bytedance.club.entry.TaskReword;
+import com.bytedance.club.interfaces.ReceviedRewardCallBack;
 
 
 

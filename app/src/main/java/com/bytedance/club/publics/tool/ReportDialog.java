@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.person.adapter.ReportAdapter;
-import com.bytedance.club.taskcenter.AppendableAdapter;
+import com.bytedance.club.adapter.ReportAdapter;
+import com.bytedance.club.adapter.AppendableAdapter;
 
 import java.util.List;
 

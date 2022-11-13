@@ -10,7 +10,7 @@ import android.view.ViewConfiguration;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 
-import com.bytedance.club.magicindicator.abs.IPagerNavigator;
+import com.bytedance.club.interfaces.IPagerNavigator;
 import com.bytedance.club.magicindicator.buildins.UIUtil;
 
 import java.util.ArrayList;

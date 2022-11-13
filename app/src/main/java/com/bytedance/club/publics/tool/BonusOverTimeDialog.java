@@ -18,8 +18,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.OverLimmitBook;
-import com.bytedance.club.bookbill.adapter.BonusOverLImitAdapter;
+import com.bytedance.club.entry.OverLimmitBook;
+import com.bytedance.club.adapter.BonusOverLImitAdapter;
 
 
 public class BonusOverTimeDialog extends Dialog implements View.OnClickListener {

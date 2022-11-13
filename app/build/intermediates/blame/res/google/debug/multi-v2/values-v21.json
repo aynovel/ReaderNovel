@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\workplace\\pn\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d7b78aae4ea55250889fb7095060b71f\\jetified-Baidu_MobAds_SDK-release_v9.21\\res\\values-v21\\values-v21.xml",

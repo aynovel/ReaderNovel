@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\workplace\\pn\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-pa\\values-pa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b8d093ff1bfd7d904e335f438cdd5faf\\jetified-firebase-messaging-22.0.0\\res\\values-pa\\values.xml",

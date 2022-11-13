@@ -11,8 +11,8 @@ import android.widget.LinearLayout;
 
 import com.bytedance.club.R;
 import com.bytedance.club.magicindicator.NavigatorHelper;
-import com.bytedance.club.magicindicator.ScrollState;
-import com.bytedance.club.magicindicator.abs.IPagerNavigator;
+import com.bytedance.club.interfaces.ScrollState;
+import com.bytedance.club.interfaces.IPagerNavigator;
 import com.bytedance.club.magicindicator.buildins.commonnavigator.abs.CommonNavigatorAdapter;
 import com.bytedance.club.magicindicator.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 import com.bytedance.club.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;

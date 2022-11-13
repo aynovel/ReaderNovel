@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\workplace\\pn\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\34dd8dc812d7cd04928e9dace4606e8c\\material-1.4.0\\res\\values-sw\\values-sw.xml",

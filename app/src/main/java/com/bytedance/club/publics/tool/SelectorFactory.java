@@ -4,7 +4,7 @@ import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 
 
 public class SelectorFactory {

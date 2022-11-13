@@ -6,7 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 
 
 public class AndroidManifestUtil {

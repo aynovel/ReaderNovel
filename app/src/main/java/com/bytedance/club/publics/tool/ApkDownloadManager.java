@@ -3,7 +3,7 @@ package com.bytedance.club.publics.tool;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 
 import java.io.File;
 import java.io.FileOutputStream;

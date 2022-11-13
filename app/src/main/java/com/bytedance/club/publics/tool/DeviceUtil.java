@@ -7,7 +7,7 @@ import android.os.Build;
 import android.provider.Settings;
 import android.text.TextUtils;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

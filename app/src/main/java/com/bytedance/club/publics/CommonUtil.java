@@ -3,12 +3,9 @@ package com.bytedance.club.publics;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.ClipData;
-import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Build;
 
-import com.bytedance.club.PlotRead;
 import com.bytedance.club.publics.weight.poputil.LoadingAlertDialog;
 
 

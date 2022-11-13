@@ -3,7 +3,7 @@ package com.bytedance.club.publics.tool;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.Constant;
 
 import java.util.Map;

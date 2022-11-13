@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\workplace\\pn\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\3ebfe1781d7f1c8ddc149ee328a1d658\\jetified-play-services-base-17.5.0\\res\\values-b+sr+Latn\\values.xml",

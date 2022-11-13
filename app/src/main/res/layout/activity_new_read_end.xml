@@ -423,7 +423,7 @@
 
             </RelativeLayout>
 
-            <com.bytedance.club.niceratingbar.NiceRatingBar
+            <com.bytedance.club.sql.NiceRatingBar
                 android:id="@+id/opreview_ratingbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

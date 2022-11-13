@@ -7,16 +7,13 @@ import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.bytedance.club.PlotRead;
-import com.bytedance.club.api.NetRequest;
+import com.bytedance.club.activtiy.PlotRead;
 import com.facebook.appevents.AppEventsConstants;
 import com.facebook.appevents.AppEventsLogger;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.math.BigDecimal;
 import java.util.Currency;
-import java.util.HashMap;
-import java.util.Map;
 
 public class DeepLinkUtil {
 

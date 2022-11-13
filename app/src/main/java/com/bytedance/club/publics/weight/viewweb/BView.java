@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.tool.LOG;
 import com.bytedance.club.publics.tool.ScreenUtil;
 

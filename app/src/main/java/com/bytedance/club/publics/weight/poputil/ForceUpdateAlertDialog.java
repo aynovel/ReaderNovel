@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import androidx.core.content.FileProvider;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
 import com.bytedance.club.publics.CommonUtil;
 import com.bytedance.club.publics.Constant;

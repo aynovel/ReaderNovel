@@ -23,20 +23,18 @@ import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.SkuDetails;
 import com.android.billingclient.api.SkuDetailsParams;
 import com.android.billingclient.api.SkuDetailsResponseListener;
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.PayInfo;
-import com.bytedance.club.api.NetRequest;
-import com.bytedance.club.person.pay.PaymentUtil;
+import com.bytedance.club.entry.PayInfo;
+import com.bytedance.club.internet.NetRequest;
+import com.bytedance.club.adapter.person.pay.PaymentUtil;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.weight.poputil.LoadingAlertDialog;
 
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
 public class GooglePayUtil {

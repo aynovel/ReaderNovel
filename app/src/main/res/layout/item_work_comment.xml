@@ -75,7 +75,7 @@
 
 
 
-        <com.bytedance.club.niceratingbar.NiceRatingBar
+        <com.bytedance.club.sql.NiceRatingBar
             android:id="@+id/score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

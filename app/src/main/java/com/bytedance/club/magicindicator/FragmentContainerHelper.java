@@ -8,6 +8,7 @@ import android.os.Build;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 
+import com.bytedance.club.interfaces.ScrollState;
 import com.bytedance.club.magicindicator.buildins.commonnavigator.model.PositionData;
 
 import java.util.ArrayList;

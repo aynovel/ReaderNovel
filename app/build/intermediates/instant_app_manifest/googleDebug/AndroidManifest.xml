@@ -73,7 +73,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Android8.0允许未知来源应用安装的权限 -->
     <!-- <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> -->
     <application
-        android:name="com.bytedance.club.PlotRead"
+        android:name="com.bytedance.club.activtiy.PlotRead"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -90,7 +90,7 @@
             android:value="google" />
 
         <activity
-            android:name="com.bytedance.club.SplashActivity"
+            android:name="com.bytedance.club.activtiy.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:screenOrientation="portrait"
@@ -121,7 +121,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bytedance.club.homepage.HomeActivity"
+            android:name="com.bytedance.club.activtiy.HomeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateHidden" >
@@ -137,22 +137,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bytedance.club.booktopup.TopUpActivity"
+            android:name="com.bytedance.club.activtiy.TopUpActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookbill.BillDetailsActivity"
+            android:name="com.bytedance.club.activtiy.BillDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookbill.WalletActivity"
+            android:name="com.bytedance.club.activtiy.WalletActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookbill.BillActivity"
+            android:name="com.bytedance.club.activtiy.BillActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookbill.ChapterUnlockActivity"
+            android:name="com.bytedance.club.activtiy.ChapterUnlockActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookcase.ReadHistoryActivity"
+            android:name="com.bytedance.club.activtiy.ReadHistoryActivity"
             android:screenOrientation="portrait" />
 
         <!-- <activity -->
@@ -160,140 +160,140 @@
         <!-- android:screenOrientation="portrait" /> -->
 
         <activity
-            android:name="com.bytedance.club.person.readinglevel.SignAndWelfareActivity"
+            android:name="com.bytedance.club.adapter.person.readinglevel.SignAndWelfareActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.readinglevel.SignRuleActivity"
+            android:name="com.bytedance.club.adapter.person.readinglevel.SignRuleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.readingtask.TaskDetailActivity"
+            android:name="com.bytedance.club.adapter.person.readingtask.TaskDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.WorkDetailActivity"
+            android:name="com.bytedance.club.activtiy.WorkDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdiscover.DiscoverMoreActivity"
+            android:name="com.bytedance.club.adapter.DiscoverMoreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookmessage.activity.MessageDetailActivity"
+            android:name="com.bytedance.club.activtiy.MessageDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.booklibrary.LibraryActivity"
+            android:name="com.bytedance.club.activtiy.LibraryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.CatalogActivity"
+            android:name="com.bytedance.club.activtiy.CatalogActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.FansListActivity"
+            android:name="com.bytedance.club.activtiy.FansListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.ReportActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.ReportActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.FansRuleActivity"
+            android:name="com.bytedance.club.activtiy.FansRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.WorkCommentListActivity"
+            android:name="com.bytedance.club.activtiy.WorkCommentListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.WorkCommentDetailActivity"
+            android:name="com.bytedance.club.activtiy.WorkCommentDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.landing.LoginActivity"
+            android:name="com.bytedance.club.adapter.person.landing.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.landing.PrivatePolicyActivity"
+            android:name="com.bytedance.club.adapter.person.landing.PrivatePolicyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.landing.ServiceTermsActivity"
+            android:name="com.bytedance.club.adapter.person.landing.ServiceTermsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.ReadPreferenceSettingActivity"
+            android:name="com.bytedance.club.adapter.person.ReadPreferenceSettingActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.ui.read.NewReadEndActivity"
+            android:name="com.bytedance.club.activtiy.NewReadEndActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.SettingActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.SettingActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.readingmsg.MessageActivity"
+            android:name="com.bytedance.club.adapter.person.readingmsg.MessageActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.readingmsg.SystemMessageDetailActivity"
+            android:name="com.bytedance.club.adapter.person.readingmsg.SystemMessageDetailActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.CommentReportActivity"
+            android:name="com.bytedance.club.activtiy.CommentReportActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.bookdetail.PublishWorkCommentActivity"
+            android:name="com.bytedance.club.activtiy.PublishWorkCommentActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.UserWorkCommentListActivity"
+            android:name="com.bytedance.club.adapter.person.UserWorkCommentListActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.AutoBuyManagerActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.AutoBuyManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.PushUpdateManagerActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.PushUpdateManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.ManagerActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.ManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.AboutUsActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.AboutUsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.AccountActivity"
+            android:name="com.bytedance.club.adapter.person.account.AccountActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.RechargeRecordActivity"
+            android:name="com.bytedance.club.adapter.person.account.RechargeRecordActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.ConsumeRecordActivity"
+            android:name="com.bytedance.club.adapter.person.account.ConsumeRecordActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.VoucherActivity"
+            android:name="com.bytedance.club.adapter.person.account.VoucherActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.VoucherHelpActivity"
+            android:name="com.bytedance.club.adapter.person.account.VoucherHelpActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.OverdueVoucherActivity"
+            android:name="com.bytedance.club.adapter.person.account.OverdueVoucherActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.account.VoucherExchangeActivity"
+            android:name="com.bytedance.club.adapter.person.account.VoucherExchangeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.UserInfoModifyActivity"
+            android:name="com.bytedance.club.adapter.person.UserInfoModifyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.booksearch.SearchActivity"
+            android:name="com.bytedance.club.activtiy.SearchActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
@@ -308,48 +308,48 @@
         <!-- android:exported="true"/> -->
 
         <activity
-            android:name="com.bytedance.club.person.readinglevel.LevelRuleActivity"
+            android:name="com.bytedance.club.adapter.person.readinglevel.LevelRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.ActivityRuleActivity"
+            android:name="com.bytedance.club.activtiy.ActivityRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.vip.MonthVipActivity"
+            android:name="com.bytedance.club.adapter.person.vip.MonthVipActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.vip.MonthVipRechargeActivity"
+            android:name="com.bytedance.club.adapter.person.vip.MonthVipRechargeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.UserHelpActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.UserHelpActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.UserHelpDetailsActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.UserHelpDetailsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.FeedbackActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.FeedbackActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.person.personcenter.JoinUsActivity"
+            android:name="com.bytedance.club.adapter.person.personcenter.JoinUsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.classification.ClassifyDetailActivity"
+            android:name="com.bytedance.club.activtiy.ClassifyDetailActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.taskcenter.TaskCenterActivity"
+            android:name="com.bytedance.club.activtiy.TaskCenterActivity"
             android:screenOrientation="portrait" />
 
         <!-- 新阅读页面 -->
 
         <activity
-            android:name="com.bytedance.club.ui.read.ReadActivity"
+            android:name="com.bytedance.club.activtiy.ReadActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
 
@@ -359,10 +359,10 @@
         <!-- 相机 -->
 
         <activity
-            android:name="com.bytedance.club.imgsel.ui.ISListActivity"
+            android:name="com.bytedance.club.activtiy.ISListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.bytedance.club.imgsel.ui.ISCameraActivity"
+            android:name="com.bytedance.club.activtiy.ISCameraActivity"
             android:screenOrientation="portrait" />
 
         <!-- <meta-data -->
@@ -405,7 +405,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.bytedance.club.googlemessage.googlepush.MyFirebaseMessagingService" >
+        <service android:name="com.bytedance.club.service.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

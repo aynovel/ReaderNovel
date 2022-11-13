@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.bytedance.club.magicindicator.abs.IPagerNavigator;
+import com.bytedance.club.interfaces.IPagerNavigator;
 
 
 public class MagicIndicator extends FrameLayout {

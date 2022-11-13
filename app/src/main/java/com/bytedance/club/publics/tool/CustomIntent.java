@@ -1,6 +1,6 @@
 package com.bytedance.club.publics.tool;
 
-import static com.bytedance.club.utils.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,19 +8,16 @@ import android.content.Intent;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.bytedance.club.WerActivity;
-import com.bytedance.club.amodel.DiscoverBean;
-import com.bytedance.club.amodel.InboxBean;
-import com.bytedance.club.amodel.RecList;
-import com.bytedance.club.amodel.Work;
-import com.bytedance.club.amodel.bean.CollBookBean;
-import com.bytedance.club.api.NetRequest;
-import com.bytedance.club.bookdetail.WorkDetailActivity;
-import com.bytedance.club.ui.read.ReadActivity;
+import com.bytedance.club.activtiy.WerActivity;
+import com.bytedance.club.entry.DiscoverBean;
+import com.bytedance.club.entry.InboxBean;
+import com.bytedance.club.entry.RecList;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.activtiy.ReadActivity;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class CustomIntent {
     static String mBid = "";

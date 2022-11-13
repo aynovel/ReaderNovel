@@ -1,6 +1,6 @@
 package com.bytedance.club.publics.tool;
 
-import static com.bytedance.club.utils.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -18,13 +18,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.SignBean;
-import com.bytedance.club.amodel.Work;
-import com.bytedance.club.amodel.bean.CollBookBean;
+import com.bytedance.club.entry.SignBean;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.bookcase.ShelfUtil;
-import com.bytedance.club.bookdetail.WorkDetailActivity;
-import com.bytedance.club.booksign.adapter.SignRVAdapter;
-import com.bytedance.club.ui.read.ReadActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.adapter.SignRVAdapter;
+import com.bytedance.club.activtiy.ReadActivity;
 
 
 public class SignDialog extends Dialog implements View.OnClickListener {

@@ -1,6 +1,6 @@
 package com.bytedance.club.publics.weight.viewweb;
 
-import static com.bytedance.club.utils.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,22 +11,22 @@ import android.os.Message;
 import android.util.Base64;
 import android.webkit.JavascriptInterface;
 
-import com.bytedance.club.PlotRead;
-import com.bytedance.club.WerActivity;
-import com.bytedance.club.amodel.Work;
-import com.bytedance.club.amodel.bean.CollBookBean;
-import com.bytedance.club.api.API;
-import com.bytedance.club.bookdetail.WorkDetailActivity;
-import com.bytedance.club.booktopup.TopUpActivity;
-import com.bytedance.club.classification.ClassifyDetailActivity;
-import com.bytedance.club.person.landing.LoginActivity;
-import com.bytedance.club.person.pay.RechargeCallback;
-import com.bytedance.club.person.readinglevel.SignAndWelfareActivity;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.activtiy.WerActivity;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.interfaces.InterFace;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.activtiy.TopUpActivity;
+import com.bytedance.club.activtiy.ClassifyDetailActivity;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
+import com.bytedance.club.adapter.person.pay.RechargeCallback;
+import com.bytedance.club.adapter.person.readinglevel.SignAndWelfareActivity;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.LOG;
-import com.bytedance.club.ui.read.ReadActivity;
+import com.bytedance.club.activtiy.ReadActivity;
 
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONObject;
@@ -284,7 +284,7 @@ public class JsAndroid {
         String shareurl = JSONUtil.getString(object, "shareurl");
 
         Intent intent = new Intent();
-        if (API.H5_RECHARGE_MONTH_VIP.equals(path)) {
+        if (InterFace.H5_RECHARGE_MONTH_VIP.equals(path)) {
 //            intent.setClass(activity, MonthVipTopUpActivity.class);
         } else {
             intent.setClass(activity, WerActivity.class);

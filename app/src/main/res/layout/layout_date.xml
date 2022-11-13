@@ -6,7 +6,7 @@
     android:background="#f7f7f7"
     android:orientation="horizontal">
 
-    <com.bytedance.club.datepicker.date.YearPicker
+    <com.bytedance.club.weight.YearPicker
         android:id="@+id/yearPicker_layout_date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -14,7 +14,7 @@
         app:halfVisibleItemCount="2"
         app:selectedTextColor="@color/com_ycuwq_datepicker_selectedTextColor" />
 
-    <com.bytedance.club.datepicker.date.MonthPicker
+    <com.bytedance.club.weight.MonthPicker
         android:id="@+id/monthPicker_layout_date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         app:halfVisibleItemCount="2"
         app:selectedTextColor="@color/com_ycuwq_datepicker_selectedTextColor" />
 
-    <com.bytedance.club.datepicker.date.DayPicker
+    <com.bytedance.club.weight.DayPicker
         android:id="@+id/dayPicker_layout_date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

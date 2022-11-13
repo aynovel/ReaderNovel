@@ -180,7 +180,7 @@
 #
 -dontwarn com.bytedance.club.model.**
 #对含有反射类的处理
--keep class com.bytedance.club.amodel.** { *; }
+-keep class com.bytedance.club.entry.** { *; }
 #
 # ----------------------------- 其他的 -----------------------------
 #
@@ -307,8 +307,8 @@
 -keepattributes EnclosingMethod
 
 # Gson
--keep class com.bytedance.club.amodel.**{*;} # 自定义数据模型的bean目录
--keep class com.bytedance.club.amodel.bean.**{*;} # 自定义数据模型的bean目录
+-keep class com.bytedance.club.entry.**{*;} # 自定义数据模型的bean目录
+-keep class com.bytedance.club.entry.bean.**{*;} # 自定义数据模型的bean目录
 -keep class com.bytedance.club.ireader.model.bean.**{*;} # 自定义数据模型的bean目录
 
 

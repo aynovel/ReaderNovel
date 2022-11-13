@@ -2,7 +2,7 @@ package com.bytedance.club.publics.tool;
 
 import android.util.Log;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 
 
 public class LOG {

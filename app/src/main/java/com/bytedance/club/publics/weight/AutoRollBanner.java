@@ -1,6 +1,6 @@
 package com.bytedance.club.publics.weight;
 
-import static com.bytedance.club.utils.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 
 import android.content.Context;
 import android.content.Intent;
@@ -25,15 +25,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.WerActivity;
+import com.bytedance.club.activtiy.WerActivity;
 import com.bytedance.club.R;
-import com.bytedance.club.amodel.AD;
-import com.bytedance.club.amodel.Work;
-import com.bytedance.club.amodel.bean.CollBookBean;
-import com.bytedance.club.bookdetail.WorkDetailActivity;
+import com.bytedance.club.entry.AD;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.activtiy.WorkDetailActivity;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.publics.tool.GlideUtil;
-import com.bytedance.club.ui.read.ReadActivity;
+import com.bytedance.club.activtiy.ReadActivity;
 
 import java.util.List;
 

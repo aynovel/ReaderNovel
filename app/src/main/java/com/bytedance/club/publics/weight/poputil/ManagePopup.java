@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.bytedance.club.PlotRead;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.DisplayUtil;
