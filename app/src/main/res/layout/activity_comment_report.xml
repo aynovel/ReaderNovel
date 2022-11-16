@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.bytedance.club.publics.weight.WrapListView
+            <life.forever.cf.publics.weight.WrapListView
                 android:id="@+id/listView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
 
     </ScrollView>
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="50dp"

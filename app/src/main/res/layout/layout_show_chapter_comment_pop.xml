@@ -7,12 +7,12 @@
     android:background="@drawable/read_chapter_comment_bg"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+    <life.forever.cf.publics.fresh.weight.PullRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.bytedance.club.publics.fresh.LoadFooterView
+        <life.forever.cf.publics.fresh.LoadFooterView
             android:id="@+id/loadFooter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -27,7 +27,7 @@
             android:listSelector="@drawable/selector_list_selector"
             android:overScrollMode="never"
             android:scrollbars="none" />
-    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+    </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
     <View style="@style/common_horizontal_line" />
 

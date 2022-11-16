@@ -1,9 +1,9 @@
-package com.bytedance.club.entry.bean;
+package life.forever.cf.entry.bean;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
 
-import com.bytedance.club.entry.ChapterItemBean;
+import life.forever.cf.entry.ChapterItemBean;
 
 import org.greenrobot.greendao.AbstractDao;
 import org.greenrobot.greendao.Property;

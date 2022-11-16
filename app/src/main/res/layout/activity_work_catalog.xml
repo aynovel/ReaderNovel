@@ -63,7 +63,7 @@
         android:background="@drawable/shape_reload_e1edd7_14"
         android:scrollbars="vertical" />
 
-<!--    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout-->
+<!--    <PullRefreshLayout-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent">-->
 
@@ -91,6 +91,6 @@
 <!--            <include layout="@layout/common_reload" />-->
 <!--            </LinearLayout>-->
 <!--        </RelativeLayout>-->
-<!--    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>-->
+<!--    </PullRefreshLayout>-->
     </LinearLayout>
 </LinearLayout>

@@ -34,7 +34,7 @@
         android:textColor="@color/color_1F1F1F"
         android:textSize="14sp" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/TermsServiceItem"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -44,7 +44,7 @@
 
     <View style="@style/common_horizontal_line" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/PrivacyPolicyItem"
         android:layout_width="match_parent"
         android:layout_height="50dp"

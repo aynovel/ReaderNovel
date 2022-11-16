@@ -2,7 +2,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.bytedance.club.publics.weight.RadiusImageView
+    <life.forever.cf.publics.weight.RadiusImageView
         android:id="@+id/head"
         android:layout_width="20dp"
         android:layout_height="20dp"

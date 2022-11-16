@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.bytedance.club.weight.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<life.forever.cf.weight.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -22,4 +22,4 @@
         android:layout_centerHorizontal="true"
         android:text="@string/takephoto" />
 
-</com.bytedance.club.weight.SquareRelativeLayout>
+</life.forever.cf.weight.SquareRelativeLayout>

@@ -2,7 +2,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.bytedance.club"
+    package="life.forever.cf"
     tools:ignore="ProtectedPermissions">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -27,7 +27,7 @@
 <!--    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />-->
 
     <application
-        android:name="com.bytedance.club.activtiy.PlotRead"
+        android:name="life.forever.cf.activtiy.PlotRead"
         android:allowBackup="false"
         android:icon="@drawable/logo_novel_star"
         android:label="@string/app_name"
@@ -44,7 +44,7 @@
             android:value="${UMENG_CHANNEL_VALUE}" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.SplashActivity"
+            android:name="life.forever.cf.activtiy.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:exported="true"
@@ -80,7 +80,7 @@
         </activity>
 
         <activity
-            android:name="com.bytedance.club.activtiy.HomeActivity"
+            android:name="life.forever.cf.activtiy.HomeActivity"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustPan|stateHidden"
             android:screenOrientation="portrait">
@@ -97,26 +97,26 @@
         </activity>
 
         <activity
-            android:name="com.bytedance.club.activtiy.TopUpActivity"
+            android:name="life.forever.cf.activtiy.TopUpActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.bytedance.club.activtiy.BillDetailsActivity"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name="com.bytedance.club.activtiy.WalletActivity"
+            android:name="life.forever.cf.activtiy.BillDetailsActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.BillActivity"
+            android:name="life.forever.cf.activtiy.WalletActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.ChapterUnlockActivity"
+            android:name="life.forever.cf.activtiy.BillActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.ReadHistoryActivity"
+            android:name="life.forever.cf.activtiy.ChapterUnlockActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="life.forever.cf.activtiy.ReadHistoryActivity"
             android:screenOrientation="portrait" />
 
         <!--        <activity-->
@@ -125,71 +125,71 @@
 
 
         <activity
-            android:name=".adapter.person.readinglevel.SignAndWelfareActivity"
+            android:name="life.forever.cf.adapter.person.readinglevel.SignAndWelfareActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.readinglevel.SignRuleActivity"
+            android:name="life.forever.cf.adapter.person.readinglevel.SignRuleActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.readingtask.TaskDetailActivity"
+            android:name="life.forever.cf.adapter.person.readingtask.TaskDetailActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.WorkDetailActivity"
+            android:name="life.forever.cf.activtiy.WorkDetailActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity
-            android:name="com.bytedance.club.adapter.DiscoverMoreActivity"
+            android:name="life.forever.cf.adapter.DiscoverMoreActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.MessageDetailActivity"
+            android:name="life.forever.cf.activtiy.MessageDetailActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.LibraryActivity"
+            android:name="life.forever.cf.activtiy.LibraryActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.bytedance.club.activtiy.CatalogActivity"
+            android:name="life.forever.cf.activtiy.CatalogActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.FansListActivity"
+            android:name="life.forever.cf.activtiy.FansListActivity"
             android:screenOrientation="portrait" />
 
 
         <activity
-            android:name=".adapter.person.personcenter.ReportActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.ReportActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.FansRuleActivity"
+            android:name="life.forever.cf.activtiy.FansRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.WorkCommentListActivity"
+            android:name="life.forever.cf.activtiy.WorkCommentListActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.WorkCommentDetailActivity"
+            android:name="life.forever.cf.activtiy.WorkCommentDetailActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.landing.LoginActivity"
+            android:name="life.forever.cf.adapter.person.landing.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".adapter.person.landing.PrivatePolicyActivity"
+            android:name="life.forever.cf.adapter.person.landing.PrivatePolicyActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.landing.ServiceTermsActivity"
+            android:name="life.forever.cf.adapter.person.landing.ServiceTermsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
@@ -199,31 +199,31 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.NewReadEndActivity"
+            android:name="life.forever.cf.activtiy.NewReadEndActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.SettingActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.SettingActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.readingmsg.MessageActivity"
+            android:name="life.forever.cf.adapter.person.readingmsg.MessageActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".adapter.person.readingmsg.SystemMessageDetailActivity"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.bytedance.club.activtiy.CommentReportActivity"
+            android:name="life.forever.cf.adapter.person.readingmsg.SystemMessageDetailActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.PublishWorkCommentActivity"
+            android:name="life.forever.cf.activtiy.CommentReportActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="life.forever.cf.activtiy.PublishWorkCommentActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
@@ -233,57 +233,57 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.AutoBuyManagerActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.AutoBuyManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.PushUpdateManagerActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.PushUpdateManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.ManagerActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.ManagerActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.AboutUsActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.AboutUsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.AccountActivity"
+            android:name="life.forever.cf.adapter.person.account.AccountActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.RechargeRecordActivity"
+            android:name="life.forever.cf.adapter.person.account.RechargeRecordActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.ConsumeRecordActivity"
+            android:name="life.forever.cf.adapter.person.account.ConsumeRecordActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.VoucherActivity"
+            android:name="life.forever.cf.adapter.person.account.VoucherActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.VoucherHelpActivity"
+            android:name="life.forever.cf.adapter.person.account.VoucherHelpActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.OverdueVoucherActivity"
+            android:name="life.forever.cf.adapter.person.account.OverdueVoucherActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.account.VoucherExchangeActivity"
+            android:name="life.forever.cf.adapter.person.account.VoucherExchangeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
@@ -293,15 +293,15 @@
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.SearchActivity"
+            android:name="life.forever.cf.activtiy.SearchActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
+<!--        <activity-->
+<!--            android:name="life.forever.cf.activtiy.BoyiWebActivity"-->
+<!--            android:screenOrientation="portrait" />-->
         <activity
-            android:name="com.bytedance.club.BoyiWebActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.bytedance.club.publics.Hil"
+            android:name="life.forever.cf.publics.Hil"
             android:screenOrientation="portrait" />
 <!--        <activity-->
 <!--            android:name="com.bytedance.club.ireader.ui.activity.ReadActivity"-->
@@ -309,58 +309,58 @@
 <!--            android:exported="true"/>-->
 
         <activity
-            android:name=".adapter.person.readinglevel.LevelRuleActivity"
+            android:name="life.forever.cf.adapter.person.readinglevel.LevelRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.ActivityRuleActivity"
+            android:name="life.forever.cf.activtiy.ActivityRuleActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.vip.MonthVipActivity"
+            android:name="life.forever.cf.adapter.person.vip.MonthVipActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.vip.MonthVipRechargeActivity"
+            android:name="life.forever.cf.adapter.person.vip.MonthVipRechargeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.UserHelpActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.UserHelpActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.UserHelpDetailsActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.UserHelpDetailsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.FeedbackActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.FeedbackActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".adapter.person.personcenter.JoinUsActivity"
+            android:name="life.forever.cf.adapter.person.personcenter.JoinUsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.ClassifyDetailActivity"
+            android:name="life.forever.cf.activtiy.ClassifyDetailActivity"
             android:screenOrientation="portrait"
             tools:ignore="DuplicateActivity" />
 
-        <activity android:name="com.bytedance.club.activtiy.TaskCenterActivity"
+        <activity android:name="life.forever.cf.activtiy.TaskCenterActivity"
             android:screenOrientation="portrait" />
 
 
         <!-- 新阅读页面 -->
 
         <activity
-            android:name="com.bytedance.club.activtiy.ReadActivity"
+            android:name="life.forever.cf.activtiy.ReadActivity"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
@@ -370,22 +370,22 @@
         <!-- 相机-->
 
         <activity
-            android:name="com.bytedance.club.activtiy.ISListActivity"
+            android:name="life.forever.cf.activtiy.ISListActivity"
             android:screenOrientation="portrait"
             tools:ignore="DuplicateActivity" />
 
         <activity
-            android:name="com.bytedance.club.activtiy.ISCameraActivity"
+            android:name="life.forever.cf.activtiy.ISCameraActivity"
             android:screenOrientation="portrait"
             tools:ignore="DuplicateActivity" />
 
 
 <!--        <meta-data-->
-<!--            android:name="com.bytedance.club.publics.picture.KillALB"-->
+<!--            android:name="KillALB"-->
 <!--            android:value="GlideModule" />-->
 
 <!--        <meta-data-->
-<!--            android:name="com.bytedance.club.publics.picture.KillALB"-->
+<!--            android:name="KillALB"-->
 <!--            android:value="Download"></meta-data>-->
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"

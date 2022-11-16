@@ -5,19 +5,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+    <life.forever.cf.publics.fresh.weight.PullRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_above="@+id/ll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <com.bytedance.club.publics.fresh.RefreshHeaderView
+        <life.forever.cf.publics.fresh.RefreshHeaderView
             android:id="@+id/refreshHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.bytedance.club.publics.fresh.LoadFooterView
+        <life.forever.cf.publics.fresh.LoadFooterView
             android:id="@+id/loadFooter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -29,7 +29,7 @@
             android:overScrollMode="never"
             android:scrollbars="none" />
 
-    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+    </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
 
     <LinearLayout
@@ -118,7 +118,7 @@
 
             </RelativeLayout>
 
-            <com.bytedance.club.sql.NiceRatingBar
+            <life.forever.cf.sql.NiceRatingBar
                 android:id="@+id/opreview_ratingbar_comment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

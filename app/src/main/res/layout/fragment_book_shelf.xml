@@ -46,7 +46,7 @@
 
 
 
-        <com.bytedance.club.publics.weight.RadiusImageView
+        <life.forever.cf.publics.weight.RadiusImageView
             android:id="@+id/head"
             android:layout_width="30dp"
             android:layout_height="30dp"

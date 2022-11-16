@@ -1,5 +1,5 @@
 // Generated code from Butter Knife. Do not modify!
-package com.bytedance.club.weight;
+package life.forever.cf.weight;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.bytedance.club.R;
-import com.bytedance.club.activtiy.TopUpActivity;
-import com.bytedance.club.publics.weight.viewweb.Wei1;
+import life.forever.cf.R;
+import life.forever.cf.activtiy.TopUpActivity;
+import life.forever.cf.publics.weight.viewweb.Wei1;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 

@@ -23,7 +23,7 @@
         android:textColor="@color/dark_2_color"
         android:textSize="20sp" />
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/checkNow"
         android:layout_width="270dp"
         android:layout_height="45dp"

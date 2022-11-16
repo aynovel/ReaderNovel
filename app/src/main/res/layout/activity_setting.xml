@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/pushManageItem"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -15,7 +15,7 @@
 
     <View style="@style/common_horizontal_line" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/clearMemoryItem"
         android:layout_width="match_parent"
         android:layout_height="48dp"

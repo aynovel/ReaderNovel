@@ -41,7 +41,7 @@
             android:layout_height="39dp"
             android:orientation="horizontal">
 
-            <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+            <life.forever.cf.publics.weight.viewtext.MagnetTextView
                 android:id="@+id/cancel"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -55,7 +55,7 @@
                 style="@style/common_vertical_line"
                 android:background="@color/gray_3_color" />
 
-            <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+            <life.forever.cf.publics.weight.viewtext.MagnetTextView
                 android:id="@+id/complete"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"

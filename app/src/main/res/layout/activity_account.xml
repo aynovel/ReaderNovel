@@ -62,7 +62,7 @@
 
     </LinearLayout>
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/recharge"
         android:layout_width="185dp"
         android:layout_height="45dp"
@@ -79,7 +79,7 @@
         android:layout_marginTop="40dp"
         android:background="@color/gray_4_color" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/voucherItem"
         android:layout_width="match_parent"
         android:layout_height="54dp"
@@ -93,7 +93,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/rechargeItem"
         android:layout_width="match_parent"
         android:layout_height="54dp"
@@ -107,7 +107,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp" />
 
-    <com.bytedance.club.publics.weight.KOL
+    <life.forever.cf.publics.weight.KOL
         android:id="@+id/consumeItem"
         android:layout_width="match_parent"
         android:layout_height="54dp"

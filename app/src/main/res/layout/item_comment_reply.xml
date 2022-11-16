@@ -8,7 +8,7 @@
     android:paddingTop="10dp"
     android:paddingBottom="3dp">
 
-    <com.bytedance.club.publics.weight.viewtext.FixedTextView
+    <life.forever.cf.publics.weight.viewtext.FixedTextView
         android:id="@+id/content"
         android:layout_width="0dp"
         android:layout_height="18dp"

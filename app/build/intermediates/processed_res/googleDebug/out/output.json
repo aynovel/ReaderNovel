@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.bytedance.club",
+  "applicationId": "life.forever.cf",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-googleDebug.ap_",
       "properties": {
-        "packageId": "com.bytedance.club",
+        "packageId": "life.forever.cf",
         "split": "",
         "minSdkVersion": "21"
       }

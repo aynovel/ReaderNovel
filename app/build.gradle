@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.bytedance.club"
+        applicationId "life.forever.cf"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode  1000009
@@ -19,7 +19,7 @@ android {
         SignatureConfig {
             keyAlias 'key0'
             keyPassword '917917'
-            storeFile file('../VIDEOCLUB.jks')
+            storeFile file('../NovelClub.jks')
             storePassword '917917'
         }
     }

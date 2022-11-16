@@ -22,7 +22,7 @@
         android:textColor="@color/gray_1_color"
         android:textSize="14sp" />
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/exchange"
         android:layout_width="match_parent"
         android:layout_height="46dp"

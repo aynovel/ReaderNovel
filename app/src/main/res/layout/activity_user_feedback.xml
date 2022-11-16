@@ -112,7 +112,7 @@
     </RelativeLayout>
 
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/feedback_send"
         android:layout_width="match_parent"
         android:layout_height="44dp"

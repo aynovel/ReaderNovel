@@ -21,7 +21,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.bytedance.club.publics.weight.RadiusImageView
+            <life.forever.cf.publics.weight.RadiusImageView
                 android:id="@+id/head"
                 android:layout_width="43dp"
                 android:layout_height="43dp"
@@ -43,7 +43,7 @@
                 android:textColor="@color/dark_2_color"
                 android:textSize="14sp" />
 
-            <com.bytedance.club.publics.weight.LevelView
+            <life.forever.cf.publics.weight.LevelView
                 android:id="@+id/level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
 
         </LinearLayout>
 
-        <com.bytedance.club.sql.NiceRatingBar
+        <life.forever.cf.sql.NiceRatingBar
             android:id="@+id/score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -112,7 +112,7 @@
             android:textSize="14sp"
             android:visibility="gone" />
 
-        <com.bytedance.club.publics.weight.viewtext.FixedTextView
+        <life.forever.cf.publics.weight.viewtext.FixedTextView
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

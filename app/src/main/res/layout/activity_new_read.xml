@@ -16,7 +16,7 @@
         android:background="@color/color_FAFBFC">
 
         <!--阅读页面-->
-        <com.bytedance.club.weight.PageView
+        <life.forever.cf.weight.PageView
             android:id="@+id/read_pv_page"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -50,7 +50,7 @@
                     android:layout_gravity="right"
                     android:orientation="horizontal">
 
-                    <com.bytedance.club.weight.MarqueeView
+                    <life.forever.cf.weight.MarqueeView
                         android:id="@+id/book_title"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"

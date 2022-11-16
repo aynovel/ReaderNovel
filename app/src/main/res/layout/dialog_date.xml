@@ -47,7 +47,7 @@
             android:textSize="12sp" />
     </LinearLayout>
 
-    <com.bytedance.club.weight.DatePicker
+    <life.forever.cf.weight.DatePicker
         android:id="@+id/dayPicker_dialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <com.bytedance.club.publics.weight.TaskScrollView
+    <life.forever.cf.publics.weight.TaskScrollView
         android:id="@+id/nsRootView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,7 +36,7 @@
 
 
 
-            <com.bytedance.club.publics.weight.RadiusImageView
+            <life.forever.cf.publics.weight.RadiusImageView
                 android:id="@+id/imgHead"
                 android:layout_width="38dp"
                 android:layout_height="38dp"
@@ -158,7 +158,7 @@
                         android:textSize="12dp"/>
 
 
-                    <com.bytedance.club.publics.weight.TaskCheckBox
+                    <life.forever.cf.publics.weight.TaskCheckBox
                         android:id="@+id/cbCardRemind"
                         android:layout_width="32dp"
                         android:layout_height="16dp"
@@ -272,7 +272,7 @@
                         android:textColor="@color/color_999999"
                         android:textSize="12dp"/>
 
-                    <com.bytedance.club.publics.weight.ReadTipView
+                    <life.forever.cf.publics.weight.ReadTipView
                         android:id="@+id/readTipView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -397,7 +397,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.bytedance.club.publics.weight.TaskScrollView>
+    </life.forever.cf.publics.weight.TaskScrollView>
 
 
     <ImageView

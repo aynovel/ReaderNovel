@@ -8,7 +8,7 @@
     android:background="@color/color_FEFFFF"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.fresh.android.view.ObservableScrollView
+    <life.forever.cf.publics.fresh.android.view.ObservableScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -75,7 +75,7 @@
             <!--                    android:orientation="horizontal">-->
 
 
-            <!--                    <com.bytedance.club.sql.NiceRatingBar-->
+            <!--                    <NiceRatingBar-->
             <!--                        android:id="@+id/opreview_ratingbar"-->
             <!--                        android:layout_width="wrap_content"-->
             <!--                        android:layout_height="wrap_content"-->
@@ -331,7 +331,7 @@
                         android:paddingRight="16dp">
 
 
-                        <com.bytedance.club.sql.NiceRatingBar
+                        <life.forever.cf.sql.NiceRatingBar
                             android:id="@+id/opreview_ratingbar"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -544,7 +544,7 @@
 
                     </LinearLayout>
 
-<!--                    <com.bytedance.club.publics.textviewfold.view.CollapsibleTextView-->
+<!--                    <CollapsibleTextView-->
 <!--                        android:id="@+id/descriptions"-->
 <!--                        android:layout_width="match_parent"-->
 <!--                        android:layout_height="wrap_content"-->
@@ -556,7 +556,7 @@
 <!--                        android:textSize="14sp"-->
 <!--                        app:collapsedLines="2"-->
 <!--                        tools:ignore="HardcodedText" />-->
-                    <com.bytedance.club.publics.textviewfold.ExpandableTextView
+                    <life.forever.cf.publics.textviewfold.ExpandableTextView
                         android:id="@+id/descriptions"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -958,7 +958,7 @@
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
-    </com.bytedance.club.publics.fresh.android.view.ObservableScrollView>
+    </life.forever.cf.publics.fresh.android.view.ObservableScrollView>
 
     <RelativeLayout
         android:id="@+id/rl_tibar"
@@ -1201,7 +1201,7 @@
 
             </RelativeLayout>
 
-            <com.bytedance.club.sql.NiceRatingBar
+            <life.forever.cf.sql.NiceRatingBar
                 android:id="@+id/opreview_ratingbar_comment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1320,7 +1320,7 @@
                 android:focusable="false"
                 android:scrollbars="vertical" />
 
-            <!--    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout-->
+            <!--    <PullRefreshLayout-->
             <!--        android:layout_width="match_parent"-->
             <!--        android:layout_height="match_parent">-->
 
@@ -1348,7 +1348,7 @@
             <!--            <include layout="@layout/common_reload" />-->
             <!--            </LinearLayout>-->
             <!--        </RelativeLayout>-->
-            <!--    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>-->
+            <!--    </PullRefreshLayout>-->
         </LinearLayout>
 
 

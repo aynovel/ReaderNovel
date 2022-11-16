@@ -194,7 +194,7 @@
 
                 </LinearLayout>
 
-                <com.bytedance.club.publics.weight.viewweb.Wei1
+                <life.forever.cf.publics.weight.viewweb.Wei1
                     android:id="@+id/webview"
                     android:background="@color/colorWhite"
                     android:layout_width="match_parent"
@@ -204,7 +204,7 @@
 
     </RelativeLayout>
 
-    <com.bytedance.club.publics.weight.viewweb.Wei1
+    <life.forever.cf.publics.weight.viewweb.Wei1
         android:id="@+id/webview1"
         android:background="@color/colorWhite"
         android:layout_width="match_parent"

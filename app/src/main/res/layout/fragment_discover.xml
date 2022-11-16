@@ -14,13 +14,13 @@
         tools:ignore="UselessParent">
 
 
-        <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+        <life.forever.cf.publics.fresh.weight.PullRefreshLayout
             android:id="@+id/refreshLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/color_00000000">
 
-            <com.bytedance.club.publics.fresh.FeaturedRefreshHeaderView
+            <life.forever.cf.publics.fresh.FeaturedRefreshHeaderView
                 android:id="@+id/refreshHeader"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="top"
                 android:orientation="vertical" />
-        </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+        </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
         <include
             android:id="@+id/noneView"

@@ -1,5 +1,5 @@
 // Generated code from Butter Knife. Do not modify!
-package com.bytedance.club.dialog;
+package life.forever.cf.dialog;
 
 import android.view.View;
 import android.widget.CheckBox;
@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import com.bytedance.club.R;
+import life.forever.cf.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 

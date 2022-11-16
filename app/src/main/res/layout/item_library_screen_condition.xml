@@ -15,7 +15,7 @@
         android:textColor="@color/dark_2_color"
         android:textSize="13sp" />
 
-    <com.bytedance.club.publics.weight.WrapGridView
+    <life.forever.cf.publics.weight.WrapGridView
         android:id="@+id/gridView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

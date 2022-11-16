@@ -10,12 +10,12 @@
         android:layout_height="match_parent"
         tools:ignore="UselessParent">
 
-        <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+        <life.forever.cf.publics.fresh.weight.PullRefreshLayout
             android:id="@+id/refreshLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.bytedance.club.publics.fresh.LoadFooterView
+            <life.forever.cf.publics.fresh.LoadFooterView
                 android:id="@+id/loadFooter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-        </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+        </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
         <include
             android:id="@+id/noneView"

@@ -5,18 +5,18 @@
     android:background="@color/color_FEFFFF"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+    <life.forever.cf.publics.fresh.weight.PullRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.bytedance.club.publics.fresh.RefreshHeaderView
+        <life.forever.cf.publics.fresh.RefreshHeaderView
             android:id="@+id/refreshHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.bytedance.club.publics.fresh.LoadFooterView
+        <life.forever.cf.publics.fresh.LoadFooterView
             android:id="@+id/loadFooter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -28,7 +28,7 @@
             android:overScrollMode="never"
             android:scrollbars="none" />
 
-    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+    </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
 
 

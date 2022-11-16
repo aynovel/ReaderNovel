@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:clipChildren="false">
 
-    <com.bytedance.club.publics.banner.view.BannerViewPager
+    <life.forever.cf.publics.banner.view.BannerViewPager
         android:id="@id/bannerViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -93,7 +93,7 @@
         android:scaleType="centerCrop"
         android:visibility="gone" />
 
-    <com.bytedance.club.publics.banner.view.ArcShapeView
+    <life.forever.cf.publics.banner.view.ArcShapeView
         android:id="@+id/bannerArcView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

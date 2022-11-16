@@ -268,7 +268,7 @@
         android:orientation="vertical"
         android:visibility="visible">
 
-        <com.bytedance.club.publics.weight.AutoRollBanner
+        <life.forever.cf.publics.weight.AutoRollBanner
             android:id="@+id/banner"
             android:layout_width="match_parent"
             android:layout_height="83dp" />

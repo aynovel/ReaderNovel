@@ -22,7 +22,7 @@
             android:textStyle="bold"
             android:textSize="16sp" />
 
-        <com.bytedance.club.publics.weight.viewtext.FixedTextView
+        <life.forever.cf.publics.weight.viewtext.FixedTextView
             android:id="@+id/versionDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+                <life.forever.cf.publics.weight.viewtext.MagnetTextView
                     android:id="@+id/cancel"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -62,7 +62,7 @@
                     android:textColor="#FD8427"
                     android:textSize="15sp" />
 
-                <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+                <life.forever.cf.publics.weight.viewtext.MagnetTextView
                     android:id="@+id/update"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -86,7 +86,7 @@
                 android:progressDrawable="@drawable/ress_drawable"
                 android:visibility="gone" />
 
-            <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+            <life.forever.cf.publics.weight.viewtext.MagnetTextView
                 android:id="@+id/install"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

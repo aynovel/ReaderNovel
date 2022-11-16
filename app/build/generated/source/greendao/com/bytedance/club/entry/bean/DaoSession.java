@@ -1,11 +1,11 @@
-package com.bytedance.club.entry.bean;
+package life.forever.cf.entry.bean;
 
-import com.bytedance.club.entry.AutoPayBookBean;
-import com.bytedance.club.entry.BookBean;
-import com.bytedance.club.entry.BookMultiDownConfigBean;
-import com.bytedance.club.entry.BookRecordBean;
-import com.bytedance.club.entry.BookUpdateTimeInfoBean;
-import com.bytedance.club.entry.ChapterItemBean;
+import life.forever.cf.entry.AutoPayBookBean;
+import life.forever.cf.entry.BookBean;
+import life.forever.cf.entry.BookMultiDownConfigBean;
+import life.forever.cf.entry.BookRecordBean;
+import life.forever.cf.entry.BookUpdateTimeInfoBean;
+import life.forever.cf.entry.ChapterItemBean;
 
 import java.util.Map;
 

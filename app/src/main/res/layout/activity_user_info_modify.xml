@@ -14,7 +14,7 @@
         android:layout_marginBottom="25dp"
         android:gravity="center_horizontal">
 
-        <com.bytedance.club.publics.weight.RadiusImageView
+        <life.forever.cf.publics.weight.RadiusImageView
             android:id="@+id/head"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -221,7 +221,7 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+    <life.forever.cf.publics.weight.viewtext.MagnetTextView
         android:id="@+id/submit"
         android:layout_width="match_parent"
         android:layout_height="44dp"

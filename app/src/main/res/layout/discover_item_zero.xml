@@ -31,7 +31,7 @@
 
         android:orientation="vertical">
 
-        <com.bytedance.club.publics.banner.Banner
+        <life.forever.cf.publics.banner.Banner
             android:id="@+id/banner"
             android:layout_width="wrap_content"
             android:layout_height="180dp"
@@ -39,7 +39,7 @@
             android:background="@color/color_00000000"
             app:delay_time="4000"
             app:page_right_margin="36dp">
-        </com.bytedance.club.publics.banner.Banner>
+        </life.forever.cf.publics.banner.Banner>
 
 
     </LinearLayout>

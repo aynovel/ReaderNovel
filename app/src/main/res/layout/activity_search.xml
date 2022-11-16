@@ -13,7 +13,7 @@
         android:layout_marginTop="16dp"
         android:orientation="horizontal">
 
-        <com.bytedance.club.publics.weight.PowerEditText
+        <life.forever.cf.publics.weight.PowerEditText
             android:id="@+id/et_search"
             android:layout_width="0dp"
             android:layout_height="32dp"
@@ -40,14 +40,14 @@
             android:textSize="13sp" />
     </LinearLayout>
 
-    <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+    <life.forever.cf.publics.fresh.weight.PullRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
         android:visibility="gone">
 
-        <com.bytedance.club.publics.fresh.LoadFooterView
+        <life.forever.cf.publics.fresh.LoadFooterView
             android:id="@+id/loadFooter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -57,9 +57,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+    </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
-    <com.bytedance.club.publics.scrollweight.ScrollLayout
+    <life.forever.cf.publics.scrollweight.ScrollLayout
         android:id="@+id/scrollLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -109,7 +109,7 @@
 
                 </LinearLayout>
 
-                <com.bytedance.club.publics.weight.FlowLayout
+                <life.forever.cf.publics.weight.FlowLayout
                     android:id="@+id/flowLayout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -193,12 +193,12 @@
 
         </LinearLayout>
 
-        <com.bytedance.club.publics.scrollweight.RecyclerFrameLayout
+        <life.forever.cf.publics.scrollweight.RecyclerFrameLayout
             android:id="@+id/recyclerFrameLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="16dp" />
 
-    </com.bytedance.club.publics.scrollweight.ScrollLayout>
+    </life.forever.cf.publics.scrollweight.ScrollLayout>
 
 </FrameLayout>

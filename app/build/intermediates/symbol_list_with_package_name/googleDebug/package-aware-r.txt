@@ -1,4 +1,4 @@
-com.bytedance.club
+life.forever.cf
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -7266,6 +7266,7 @@ string fifty_book_beans
 string find_good_book
 string find_stream_info
 string find_version
+string firebase_database_url
 string first_frame_render
 string first_screen_time
 string fps

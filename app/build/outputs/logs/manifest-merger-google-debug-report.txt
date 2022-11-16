@@ -1,5 +1,5 @@
 -- Merging decision tree log ---
-uses-permission#com.bytedance.club.permission.JPUSH_MESSAGE
+uses-permission#life.forever.cf.permission.JPUSH_MESSAGE
 INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
 		INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml
@@ -223,7 +223,7 @@ INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\And
 INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:3:1-516:12
 INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:3:1-516:12
 	package
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:5:5-33
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:5:5-30
 		INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -568,8 +568,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ad
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:38:9-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:30:9-60
-activity#com.bytedance.club.activtiy.SplashActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:30:9-57
+activity#life.forever.cf.activtiy.SplashActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:46:9-80:20
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:49:13-49
@@ -580,7 +580,7 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 	android:theme
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:51:13-47
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:47:13-70
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:47:13-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
@@ -615,7 +615,7 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:76:21-52
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:69:13-78:29
-activity#com.bytedance.club.activtiy.HomeActivity
+activity#life.forever.cf.activtiy.HomeActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:82:9-97:20
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:86:13-49
@@ -624,152 +624,152 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 	android:windowSoftInputMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:85:13-64
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:83:13-68
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:83:13-65
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:novelstar.top+data:scheme:novelstarin
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:88:13-96:29
-activity#com.bytedance.club.activtiy.TopUpActivity
+activity#life.forever.cf.activtiy.TopUpActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:99:9-101:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:101:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:100:13-69
-activity#com.bytedance.club.activtiy.BillDetailsActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:100:13-66
+activity#life.forever.cf.activtiy.BillDetailsActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:102:9-104:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:104:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:103:13-75
-activity#com.bytedance.club.activtiy.WalletActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:103:13-72
+activity#life.forever.cf.activtiy.WalletActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:106:9-108:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:108:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:107:13-70
-activity#com.bytedance.club.activtiy.BillActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:107:13-67
+activity#life.forever.cf.activtiy.BillActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:110:9-112:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:112:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:111:13-68
-activity#com.bytedance.club.activtiy.ChapterUnlockActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:111:13-65
+activity#life.forever.cf.activtiy.ChapterUnlockActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:114:9-116:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:116:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:115:13-77
-activity#com.bytedance.club.activtiy.ReadHistoryActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:115:13-74
+activity#life.forever.cf.activtiy.ReadHistoryActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:118:9-120:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:119:13-75
-activity#com.bytedance.club.adapter.person.readinglevel.SignAndWelfareActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:119:13-72
+activity#life.forever.cf.adapter.person.readinglevel.SignAndWelfareActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:127:9-130:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:130:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:129:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:128:13-79
-activity#com.bytedance.club.adapter.person.readinglevel.SignRuleActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:128:13-94
+activity#life.forever.cf.adapter.person.readinglevel.SignRuleActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:132:9-134:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:134:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:133:13-73
-activity#com.bytedance.club.adapter.person.readingtask.TaskDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:133:13-88
+activity#life.forever.cf.adapter.person.readingtask.TaskDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:136:9-138:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:138:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:137:13-74
-activity#com.bytedance.club.activtiy.WorkDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:137:13-89
+activity#life.forever.cf.activtiy.WorkDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:140:9-142:61
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:142:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:141:13-74
-activity#com.bytedance.club.adapter.DiscoverMoreActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:141:13-71
+activity#life.forever.cf.adapter.DiscoverMoreActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:144:9-146:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:146:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:145:13-75
-activity#com.bytedance.club.activtiy.MessageDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:145:13-72
+activity#life.forever.cf.activtiy.MessageDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:148:9-150:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:150:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:149:13-77
-activity#com.bytedance.club.activtiy.LibraryActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:149:13-74
+activity#life.forever.cf.activtiy.LibraryActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:152:9-154:51
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:154:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:153:13-71
-activity#com.bytedance.club.activtiy.CatalogActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:153:13-68
+activity#life.forever.cf.activtiy.CatalogActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:156:9-158:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:158:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:157:13-71
-activity#com.bytedance.club.activtiy.FansListActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:157:13-68
+activity#life.forever.cf.activtiy.FansListActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:160:9-162:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:162:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:161:13-72
-activity#com.bytedance.club.adapter.person.personcenter.ReportActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:161:13-69
+activity#life.forever.cf.adapter.person.personcenter.ReportActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:165:9-167:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:167:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:166:13-71
-activity#com.bytedance.club.activtiy.FansRuleActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:166:13-86
+activity#life.forever.cf.activtiy.FansRuleActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:169:9-172:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:172:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:171:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:170:13-72
-activity#com.bytedance.club.activtiy.WorkCommentListActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:170:13-69
+activity#life.forever.cf.activtiy.WorkCommentListActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:174:9-176:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:176:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:175:13-79
-activity#com.bytedance.club.activtiy.WorkCommentDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:175:13-76
+activity#life.forever.cf.activtiy.WorkCommentDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:178:9-180:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:180:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:179:13-81
-activity#com.bytedance.club.adapter.person.landing.LoginActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:179:13-78
+activity#life.forever.cf.adapter.person.landing.LoginActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:182:9-185:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:185:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:184:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:183:13-65
-activity#com.bytedance.club.adapter.person.landing.PrivatePolicyActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:183:13-80
+activity#life.forever.cf.adapter.person.landing.PrivatePolicyActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:186:9-189:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:189:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:188:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:187:13-73
-activity#com.bytedance.club.adapter.person.landing.ServiceTermsActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:187:13-88
+activity#life.forever.cf.adapter.person.landing.ServiceTermsActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:191:9-194:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:194:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:193:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:192:13-72
-activity#com.bytedance.club.adapter.person.ReadPreferenceSettingActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:192:13-87
+activity#life.forever.cf.adapter.person.ReadPreferenceSettingActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:196:9-199:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:199:13-49
@@ -777,55 +777,55 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:198:13-44
 	android:name
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:197:13-73
-activity#com.bytedance.club.activtiy.NewReadEndActivity
+activity#life.forever.cf.activtiy.NewReadEndActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:201:9-204:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:204:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:203:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:202:13-74
-activity#com.bytedance.club.adapter.person.personcenter.SettingActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:202:13-71
+activity#life.forever.cf.adapter.person.personcenter.SettingActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:206:9-209:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:209:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:208:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:207:13-72
-activity#com.bytedance.club.adapter.person.readingmsg.MessageActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:207:13-87
+activity#life.forever.cf.adapter.person.readingmsg.MessageActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:211:9-214:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:214:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:213:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:212:13-70
-activity#com.bytedance.club.adapter.person.readingmsg.SystemMessageDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:212:13-85
+activity#life.forever.cf.adapter.person.readingmsg.SystemMessageDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:215:9-218:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:218:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:217:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:216:13-82
-activity#com.bytedance.club.activtiy.CommentReportActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:216:13-97
+activity#life.forever.cf.activtiy.CommentReportActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:220:9-223:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:223:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:222:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:221:13-77
-activity#com.bytedance.club.activtiy.PublishWorkCommentActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:221:13-74
+activity#life.forever.cf.activtiy.PublishWorkCommentActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:225:9-228:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:228:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:227:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:226:13-82
-activity#com.bytedance.club.adapter.person.UserWorkCommentListActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:226:13-79
+activity#life.forever.cf.adapter.person.UserWorkCommentListActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:230:9-233:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:233:13-49
@@ -833,95 +833,95 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:232:13-44
 	android:name
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:231:13-71
-activity#com.bytedance.club.adapter.person.personcenter.AutoBuyManagerActivity
+activity#life.forever.cf.adapter.person.personcenter.AutoBuyManagerActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:235:9-238:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:238:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:237:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:236:13-79
-activity#com.bytedance.club.adapter.person.personcenter.PushUpdateManagerActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:236:13-94
+activity#life.forever.cf.adapter.person.personcenter.PushUpdateManagerActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:240:9-243:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:243:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:242:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:241:13-82
-activity#com.bytedance.club.adapter.person.personcenter.ManagerActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:241:13-97
+activity#life.forever.cf.adapter.person.personcenter.ManagerActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:245:9-248:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:248:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:247:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:246:13-72
-activity#com.bytedance.club.adapter.person.personcenter.AboutUsActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:246:13-87
+activity#life.forever.cf.adapter.person.personcenter.AboutUsActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:250:9-253:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:253:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:252:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:251:13-72
-activity#com.bytedance.club.adapter.person.account.AccountActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:251:13-87
+activity#life.forever.cf.adapter.person.account.AccountActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:255:9-258:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:258:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:257:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:256:13-67
-activity#com.bytedance.club.adapter.person.account.RechargeRecordActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:256:13-82
+activity#life.forever.cf.adapter.person.account.RechargeRecordActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:260:9-263:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:263:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:262:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:261:13-74
-activity#com.bytedance.club.adapter.person.account.ConsumeRecordActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:261:13-89
+activity#life.forever.cf.adapter.person.account.ConsumeRecordActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:265:9-268:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:268:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:267:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:266:13-73
-activity#com.bytedance.club.adapter.person.account.VoucherActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:266:13-88
+activity#life.forever.cf.adapter.person.account.VoucherActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:270:9-273:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:273:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:272:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:271:13-67
-activity#com.bytedance.club.adapter.person.account.VoucherHelpActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:271:13-82
+activity#life.forever.cf.adapter.person.account.VoucherHelpActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:275:9-278:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:278:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:277:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:276:13-71
-activity#com.bytedance.club.adapter.person.account.OverdueVoucherActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:276:13-86
+activity#life.forever.cf.adapter.person.account.OverdueVoucherActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:280:9-283:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:283:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:282:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:281:13-74
-activity#com.bytedance.club.adapter.person.account.VoucherExchangeActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:281:13-89
+activity#life.forever.cf.adapter.person.account.VoucherExchangeActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:285:9-288:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:288:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:287:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:286:13-75
-activity#com.bytedance.club.adapter.person.UserInfoModifyActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:286:13-90
+activity#life.forever.cf.adapter.person.UserInfoModifyActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:290:9-293:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:293:13-49
@@ -929,128 +929,122 @@ ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\Androi
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:292:13-44
 	android:name
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:291:13-66
-activity#com.bytedance.club.activtiy.SearchActivity
+activity#life.forever.cf.activtiy.SearchActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:295:9-298:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:298:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:297:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:296:13-70
-activity#com.bytedance.club.BoyiWebActivity
-ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:300:9-302:52
-	android:screenOrientation
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:302:13-49
-	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:301:13-62
-activity#com.bytedance.club.publics.Hil
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:296:13-67
+activity#life.forever.cf.publics.Hil
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:303:9-305:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:305:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:304:13-58
-activity#com.bytedance.club.adapter.person.readinglevel.LevelRuleActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:304:13-55
+activity#life.forever.cf.adapter.person.readinglevel.LevelRuleActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:311:9-314:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:314:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:313:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:312:13-74
-activity#com.bytedance.club.activtiy.ActivityRuleActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:312:13-89
+activity#life.forever.cf.activtiy.ActivityRuleActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:316:9-319:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:319:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:318:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:317:13-76
-activity#com.bytedance.club.adapter.person.vip.MonthVipActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:317:13-73
+activity#life.forever.cf.adapter.person.vip.MonthVipActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:321:9-324:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:324:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:323:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:322:13-64
-activity#com.bytedance.club.adapter.person.vip.MonthVipRechargeActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:322:13-79
+activity#life.forever.cf.adapter.person.vip.MonthVipRechargeActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:326:9-329:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:329:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:328:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:327:13-72
-activity#com.bytedance.club.adapter.person.personcenter.UserHelpActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:327:13-87
+activity#life.forever.cf.adapter.person.personcenter.UserHelpActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:331:9-334:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:334:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:333:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:332:13-73
-activity#com.bytedance.club.adapter.person.personcenter.UserHelpDetailsActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:332:13-88
+activity#life.forever.cf.adapter.person.personcenter.UserHelpDetailsActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:336:9-339:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:339:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:338:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:337:13-80
-activity#com.bytedance.club.adapter.person.personcenter.FeedbackActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:337:13-95
+activity#life.forever.cf.adapter.person.personcenter.FeedbackActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:341:9-344:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:344:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:343:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:342:13-73
-activity#com.bytedance.club.adapter.person.personcenter.JoinUsActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:342:13-88
+activity#life.forever.cf.adapter.person.personcenter.JoinUsActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:346:9-349:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:349:13-49
 	android:launchMode
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:348:13-44
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:347:13-71
-activity#com.bytedance.club.activtiy.ClassifyDetailActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:347:13-86
+activity#life.forever.cf.activtiy.ClassifyDetailActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:351:9-354:48
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:353:13-49
 	tools:ignore
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:354:13-45
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:352:13-78
-activity#com.bytedance.club.activtiy.TaskCenterActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:352:13-75
+activity#life.forever.cf.activtiy.TaskCenterActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:356:9-357:52
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:357:13-49
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:356:19-80
-activity#com.bytedance.club.activtiy.ReadActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:356:19-77
+activity#life.forever.cf.activtiy.ReadActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:362:9-365:38
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:364:13-49
 	android:exported
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:365:13-36
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:363:13-68
-activity#com.bytedance.club.activtiy.ISListActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:363:13-65
+activity#life.forever.cf.activtiy.ISListActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:372:9-375:48
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:374:13-49
 	tools:ignore
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:375:13-45
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:373:13-70
-activity#com.bytedance.club.activtiy.ISCameraActivity
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:373:13-67
+activity#life.forever.cf.activtiy.ISCameraActivity
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:377:9-380:48
 	android:screenOrientation
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:379:13-49
 	tools:ignore
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:380:13-45
 	android:name
-		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:378:13-72
+		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:378:13-69
 meta-data#com.facebook.sdk.ApplicationId
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:390:9-392:55
 	android:value
@@ -1079,7 +1073,7 @@ MERGED from [com.facebook.android:facebook-common:11.2.0] C:\Users\Administrator
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:402:13-36
 	android:name
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:401:13-58
-service#com.bytedance.club.service.MyFirebaseMessagingService
+service#life.forever.cf.service.MyFirebaseMessagingService
 ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:415:9-419:19
 	android:name
 		ADDED from C:\Users\Administrator\StudioProjects\ReaderNovel\app\src\main\AndroidManifest.xml:415:18-68
@@ -1399,7 +1393,7 @@ uses-permission#${applicationId}.openadsdk.permission.TT_PANGOLIN
 ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:6:5-88
 	android:name
 		ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:6:22-86
-uses-permission#com.bytedance.club.openadsdk.permission.TT_PANGOLIN
+uses-permission#life.forever.cf.openadsdk.permission.TT_PANGOLIN
 ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:6:5-88
 	android:name
 		ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:6:22-86
@@ -1415,7 +1409,7 @@ ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transfo
 		ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:9:82-117
 	android:name
 		ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:9:17-81
-permission#com.bytedance.club.openadsdk.permission.TT_PANGOLIN
+permission#life.forever.cf.openadsdk.permission.TT_PANGOLIN
 ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:9:5-119
 	android:protectionLevel
 		ADDED from [:open_ad_sdk_4.5.1.1:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\96275d59b6e642cc19bad28c04acb3f2\jetified-open_ad_sdk_4.5.1.1\AndroidManifest.xml:9:82-117
@@ -2287,7 +2281,7 @@ ADDED from [com.facebook.android:facebook-common:11.2.0] C:\Users\Administrator\
 		ADDED from [com.facebook.android:facebook-common:11.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7466915eb2587d06eab1bd0d4cd28f61\jetified-facebook-common-11.2.0\AndroidManifest.xml:34:19-68
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:11.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7466915eb2587d06eab1bd0d4cd28f61\jetified-facebook-common-11.2.0\AndroidManifest.xml:39:13-48:29
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.bytedance.club+data:scheme:fbconnect
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.life.forever.cf+data:scheme:fbconnect
 ADDED from [com.facebook.android:facebook-common:11.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7466915eb2587d06eab1bd0d4cd28f61\jetified-facebook-common-11.2.0\AndroidManifest.xml:39:13-48:29
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2ae3c84ba0c462201fb0e05b29c730a9\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20

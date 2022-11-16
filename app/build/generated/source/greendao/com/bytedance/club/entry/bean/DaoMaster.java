@@ -1,4 +1,4 @@
-package com.bytedance.club.entry.bean;
+package life.forever.cf.entry.bean;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

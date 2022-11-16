@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.bytedance.club.weight.HourPicker
+    <life.forever.cf.weight.HourPicker
         android:id="@+id/hourPicker_layout_time"
         app:halfVisibleItemCount="2"
         app:indicatorText="@string/ycuwq_datepicker_hour"
@@ -15,7 +15,7 @@
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
-    <com.bytedance.club.weight.MinutePicker
+    <life.forever.cf.weight.MinutePicker
         android:id="@+id/minutePicker_layout_time"
         app:wheelCyclic="true"
         app:indicatorText="@string/ycuwq_datepicker_minute"

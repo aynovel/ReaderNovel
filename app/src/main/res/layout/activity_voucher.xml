@@ -58,7 +58,7 @@
         android:background="@color/gray_4_color"
         android:orientation="vertical">
 
-        <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+        <life.forever.cf.publics.weight.viewtext.MagnetTextView
             android:id="@+id/exchange"
             android:layout_width="match_parent"
             android:layout_height="46dp"
@@ -74,14 +74,14 @@
             android:textColor="@color/theme_color"
             android:textSize="16sp" />
 
-        <com.bytedance.club.publics.fresh.weight.PullRefreshLayout
+        <life.forever.cf.publics.fresh.weight.PullRefreshLayout
             android:id="@+id/refreshLayout"
             android:layout_width="match_parent"
             android:paddingTop="11dp"
             android:layout_height="0dp"
             android:layout_weight="1">
 
-            <com.bytedance.club.publics.fresh.LoadFooterView
+            <life.forever.cf.publics.fresh.LoadFooterView
                 android:id="@+id/loadFooter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -92,9 +92,9 @@
                 android:layout_height="match_parent"
                 android:overScrollMode="never" />
 
-        </com.bytedance.club.publics.fresh.weight.PullRefreshLayout>
+        </life.forever.cf.publics.fresh.weight.PullRefreshLayout>
 
-        <com.bytedance.club.publics.weight.viewtext.MagnetTextView
+        <life.forever.cf.publics.weight.viewtext.MagnetTextView
             android:id="@+id/overdueVoucher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

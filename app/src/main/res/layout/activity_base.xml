@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.bytedance.club.publics.weight.TitleBar
+    <life.forever.cf.publics.weight.TitleBar
         android:id="@+id/titleBar"
         android:layout_width="match_parent"
         android:layout_height="42dp" />

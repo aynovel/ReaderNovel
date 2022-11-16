@@ -32,7 +32,7 @@
             android:text="@string/push_update_noti"
             android:layout_toRightOf="@+id/imgIcon"/>
 
-        <com.bytedance.club.publics.weight.TaskCheckBox
+        <life.forever.cf.publics.weight.TaskCheckBox
             android:id="@+id/cbCardRemind"
             android:layout_width="39dp"
             android:layout_height="20dp"

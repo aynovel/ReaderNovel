@@ -23,7 +23,7 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <com.bytedance.club.publics.weight.RadiusImageView
+            <life.forever.cf.publics.weight.RadiusImageView
                 android:id="@+id/head"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

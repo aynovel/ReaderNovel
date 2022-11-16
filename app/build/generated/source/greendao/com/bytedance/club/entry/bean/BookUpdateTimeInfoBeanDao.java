@@ -1,9 +1,9 @@
-package com.bytedance.club.entry.bean;
+package life.forever.cf.entry.bean;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteStatement;
 
-import com.bytedance.club.entry.BookUpdateTimeInfoBean;
+import life.forever.cf.entry.BookUpdateTimeInfoBean;
 
 import org.greenrobot.greendao.AbstractDao;
 import org.greenrobot.greendao.Property;

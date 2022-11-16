@@ -75,7 +75,7 @@
                     android:src="@drawable/bg_home_breathing_lamp"
                     android:layout_centerVertical="true" />
 
-                <com.bytedance.club.publics.weight.RadiusImageView
+                <life.forever.cf.publics.weight.RadiusImageView
                     android:id="@+id/head"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
@@ -134,7 +134,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <com.bytedance.club.tab.MagicIndicator
+    <life.forever.cf.tab.MagicIndicator
         android:id="@+id/magicIndicator"
         android:layout_width="match_parent"
         android:layout_height="40dp"

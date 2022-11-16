@@ -1,41 +1,42 @@
 {
   "project_info": {
-    "project_number": "382261271305",
-    "project_id": "videoclub-2ded4",
-    "storage_bucket": "videoclub-2ded4.appspot.com"
+    "project_number": "658116322117",
+    "firebase_url": "https://novelclub-23a44.firebaseio.com",
+    "project_id": "novelclub-23a44",
+    "storage_bucket": "novelclub-23a44.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:382261271305:android:dc81c84801e89b8ec911d8",
+        "mobilesdk_app_id": "1:658116322117:android:3e6d3611a3d3e70c43142c",
         "android_client_info": {
-          "package_name": "com.bytedance.club"
+          "package_name": "life.forever.cf"
         }
       },
       "oauth_client": [
         {
-          "client_id": "382261271305-o8a84cl8a9evfm24cov8oljpghogkvcv.apps.googleusercontent.com",
+          "client_id": "658116322117-ijrud77nvjcn1io9gis95orebo4ba6fm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.bytedance.club",
-            "certificate_hash": "371c692769d7cf3ad200cc21b69e65106f700231"
+            "package_name": "life.forever.cf",
+            "certificate_hash": "157109adb67f27e53068e83e54d1067b77dcd69e"
           }
         },
         {
-          "client_id": "382261271305-h7reisufonujamlptr9hb75bsu83oa74.apps.googleusercontent.com",
+          "client_id": "658116322117-dh60d2h3u18r3gp7ho1jq589tvfma1f9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC7xMH4GLbITWq5saLZOCiN7pcf33M_rmo"
+          "current_key": "AIzaSyAj5mozHhKLGu2HDsEpmtur6jHv6GnowL8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "382261271305-h7reisufonujamlptr9hb75bsu83oa74.apps.googleusercontent.com",
+              "client_id": "658116322117-nbfr3tfqqv1ln9hiook6mi05qfdqud6v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
