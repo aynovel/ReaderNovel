@@ -1,2 +1,2 @@
-# novelstar-android
+# novel
 
