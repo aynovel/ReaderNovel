@@ -1,17 +1,17 @@
 package com.bytedance.club.sql;
 
 import com.bytedance.club.entry.AutoPayBookBean;
-import com.bytedance.club.entry.bean.AutoPayBookBeanDao;
+import com.bytedance.club.entry.AutoPayBookBeanDao;
 import com.bytedance.club.entry.BookMultiDownConfigBean;
-import com.bytedance.club.entry.bean.BookMultiDownConfigBeanDao;
+import com.bytedance.club.entry.BookMultiDownConfigBeanDao;
 import com.bytedance.club.entry.BookRecordBean;
-import com.bytedance.club.entry.bean.BookRecordBeanDao;
+import com.bytedance.club.entry.BookRecordBeanDao;
 import com.bytedance.club.entry.BookUpdateTimeInfoBean;
-import com.bytedance.club.entry.bean.BookUpdateTimeInfoBeanDao;
+import com.bytedance.club.entry.BookUpdateTimeInfoBeanDao;
 import com.bytedance.club.entry.ChapterItemBean;
-import com.bytedance.club.entry.bean.ChapterItemBeanDao;
-import com.bytedance.club.entry.bean.DaoSession;
 import com.bytedance.club.activtiy.LogUtils;
+import com.bytedance.club.entry.ChapterItemBeanDao;
+import com.bytedance.club.entry.DaoSession;
 
 import org.greenrobot.greendao.async.AsyncOperationListener;
 import org.greenrobot.greendao.async.AsyncSession;

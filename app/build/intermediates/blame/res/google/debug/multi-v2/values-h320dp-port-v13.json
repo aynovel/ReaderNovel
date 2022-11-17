@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+            "outputFile": "D:\\velproWorkspace\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\34dd8dc812d7cd04928e9dace4606e8c\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\34dd8dc812d7cd04928e9dace4606e8c\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

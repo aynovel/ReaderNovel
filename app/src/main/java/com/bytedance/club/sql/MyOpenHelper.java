@@ -3,7 +3,7 @@ package com.bytedance.club.sql;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.bytedance.club.entry.bean.DaoMaster;
+import com.bytedance.club.entry.DaoMaster;
 
 import org.greenrobot.greendao.database.Database;
 

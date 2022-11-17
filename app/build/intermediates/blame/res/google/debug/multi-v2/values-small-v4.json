@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "D:\\velproWorkspace\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\34dd8dc812d7cd04928e9dace4606e8c\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\34dd8dc812d7cd04928e9dace4606e8c\\material-1.4.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

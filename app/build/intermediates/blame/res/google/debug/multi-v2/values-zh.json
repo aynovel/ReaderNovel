@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "D:\\velproWorkspace\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\29d8877cda10de1ec3d518eec2d35950\\jetified-SmartRefreshLayout-1.1.0-alpha-21\\res\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,255,306,357,410,465,519,579,633,684,735,792,846,902,956,1012",
-                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
-                        "endOffsets": "158,250,301,352,405,460,514,574,628,679,730,787,841,897,951,1007,1068"
-                    },
-                    "to": {
-                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "992,1100,1192,1243,1294,1347,1402,1456,1516,1570,1621,1672,1729,1783,1839,1893,1949",
-                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
-                        "endOffsets": "1095,1187,1238,1289,1342,1397,1451,1511,1565,1616,1667,1724,1778,1834,1888,1944,2005"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\d39b3c5141ebee7f98ff7cc25628a9ce\\jetified-SmartRefreshHeader-1.1.0-alpha-21\\res\\values-zh\\values-zh.xml",
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\83c7836aa88b723d0efbf360bc400a0d\\jetified-SmartRefreshHeader-1.1.0-alpha-21\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -31,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\763033d0f14ca27121791ba23ae8f113\\jetified-wind-sdk-4.3.0\\res\\values-zh\\values-zh.xml",
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\763033d0f14ca27121791ba23ae8f113\\jetified-wind-sdk-4.3.0\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -45,6 +28,23 @@
                         "startOffsets": "438,476,516,557,610,680,729,782,833,888,940",
                         "endColumns": "37,39,40,52,69,48,52,50,54,51,51",
                         "endOffsets": "471,511,552,605,675,724,777,828,883,935,987"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\bfa480aa15009be0374e5c646c38bc6a\\jetified-SmartRefreshLayout-1.1.0-alpha-21\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,255,306,357,410,465,519,579,633,684,735,792,846,902,956,1012",
+                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
+                        "endOffsets": "158,250,301,352,405,460,514,574,628,679,730,787,841,897,951,1007,1068"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "992,1100,1192,1243,1294,1347,1402,1456,1516,1570,1621,1672,1729,1783,1839,1893,1949",
+                        "endColumns": "107,91,50,50,52,54,53,59,53,50,50,56,53,55,53,55,60",
+                        "endOffsets": "1095,1187,1238,1289,1342,1397,1451,1511,1565,1616,1667,1724,1778,1834,1888,1944,2005"
                     }
                 }
             ]

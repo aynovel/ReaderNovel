@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\StudioProjects\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-sw720dp-v17\\values-sw720dp-v17.xml",
+            "outputFile": "D:\\velproWorkspace\\ReaderNovel\\app\\build\\intermediates\\incremental\\mergeGoogleDebugResources\\merged.dir\\values-sw720dp-v17\\values-sw720dp-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\4ced7b89db6e43b00c0b0cfa4cc6aac8\\jetified-GDTSDK.unionNormal.4.462.1332\\res\\values-sw720dp-v17\\values-sw720dp-v17.xml",
+                    "source": "D:\\Android\\gradle\\gradle-7.2\\caches\\transforms-2\\files-2.1\\5a2827e6b40e47b0ec6312d2a642448f\\jetified-GDTSDK.unionNormal.4.462.1332\\res\\values-sw720dp-v17\\values-sw720dp-v17.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

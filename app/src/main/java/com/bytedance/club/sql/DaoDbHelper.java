@@ -3,8 +3,8 @@ package com.bytedance.club.sql;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.bytedance.club.activtiy.PlotRead;
-import com.bytedance.club.entry.bean.DaoMaster;
-import com.bytedance.club.entry.bean.DaoSession;
+import com.bytedance.club.entry.DaoMaster;
+import com.bytedance.club.entry.DaoSession;
 
 
 public class DaoDbHelper {
