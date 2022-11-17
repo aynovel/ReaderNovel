@@ -6,7 +6,9 @@ apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
-
+    //git config --global http.sslVerify "false"
+    //git config --global --unset https.proxy
+    //git config --global --unset http.proxy
     defaultConfig {
         applicationId "com.bytedance.club"
         minSdkVersion 21
