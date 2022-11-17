@@ -14,15 +14,15 @@ import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.sql.FirstShelfSQLiteHelper;
-import com.bytedance.club.sql.SQLiteManager;
-import com.bytedance.club.sql.ShelfSQLiteHelper;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.LOG;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
+import com.bytedance.club.sql.FirstShelfSQLiteHelper;
+import com.bytedance.club.sql.SQLiteManager;
+import com.bytedance.club.sql.ShelfSQLiteHelper;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.greenrobot.eventbus.EventBus;

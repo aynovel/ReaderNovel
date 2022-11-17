@@ -3,9 +3,9 @@ package com.bytedance.club.adapter.person.personcenter;
 import android.text.TextUtils;
 
 import com.bytedance.club.entry.AutoBuy;
+import com.bytedance.club.publics.Constant;
 import com.bytedance.club.sql.AutoBuySQLiteHelper;
 import com.bytedance.club.sql.SQLiteManager;
-import com.bytedance.club.publics.Constant;
 
 import java.util.List;
 

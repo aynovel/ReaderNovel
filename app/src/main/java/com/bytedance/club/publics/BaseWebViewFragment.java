@@ -4,8 +4,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.bytedance.club.publics.weight.viewweb.Kill;
 import com.bytedance.club.publics.weight.viewweb.JsAndroid;
+import com.bytedance.club.publics.weight.viewweb.Kill;
 
 /**
  * 封装了一个垂直{@link android.webkit.WebView}的{@link BaseFragment}

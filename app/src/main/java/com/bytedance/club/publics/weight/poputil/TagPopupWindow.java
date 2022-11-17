@@ -19,10 +19,10 @@ import android.widget.PopupWindow;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.internet.NetRequest;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.TagsBean;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.google.gson.Gson;

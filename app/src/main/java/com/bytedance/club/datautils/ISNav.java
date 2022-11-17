@@ -7,11 +7,11 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.bytedance.club.interfaces.ImageLoader;
-import com.bytedance.club.entry.ISCameraConfig;
-import com.bytedance.club.entry.ISListConfig;
 import com.bytedance.club.activtiy.ISCameraActivity;
 import com.bytedance.club.activtiy.ISListActivity;
+import com.bytedance.club.entry.ISCameraConfig;
+import com.bytedance.club.entry.ISListConfig;
+import com.bytedance.club.interfaces.ImageLoader;
 
 
 

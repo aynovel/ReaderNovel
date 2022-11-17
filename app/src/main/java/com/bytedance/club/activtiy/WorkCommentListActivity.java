@@ -23,14 +23,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.CommentGroupAdapter;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Comment;
 import com.bytedance.club.entry.CommentClassify;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.CommentGroupAdapter;
-import com.bytedance.club.sql.NiceRatingBar;
-import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.OnItemClickListener;
 import com.bytedance.club.publics.fresh.LoadFooterView;
@@ -42,6 +41,7 @@ import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.weight.poputil.LoadingAlertDialog;
 import com.bytedance.club.publics.weight.poputil.SharePopup;
+import com.bytedance.club.sql.NiceRatingBar;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

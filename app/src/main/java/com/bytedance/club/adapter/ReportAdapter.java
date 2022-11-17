@@ -11,7 +11,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.adapter.AppendableAdapter;
 
 import java.util.HashMap;
 

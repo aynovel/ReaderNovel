@@ -3,6 +3,7 @@ package com.bytedance.club.internet;
 import android.os.Build;
 import android.text.TextUtils;
 
+import com.bytedance.club.activtiy.Bus;
 import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.interfaces.InterFace;
 import com.bytedance.club.publics.Constant;
@@ -10,7 +11,6 @@ import com.bytedance.club.publics.tool.AndroidManifestUtil;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.DeviceUtil;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
-import com.bytedance.club.activtiy.Bus;
 
 import org.json.JSONObject;
 

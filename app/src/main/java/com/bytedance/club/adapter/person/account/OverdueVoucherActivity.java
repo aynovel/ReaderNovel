@@ -3,8 +3,8 @@ package com.bytedance.club.adapter.person.account;
 import android.os.Message;
 import android.view.View;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Voucher;
 import com.bytedance.club.internet.NetRequest;

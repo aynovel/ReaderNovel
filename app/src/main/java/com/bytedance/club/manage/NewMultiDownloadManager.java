@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Message;
 import android.widget.Toast;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.Work;
+import com.bytedance.club.activtiy.BookManager;
+import com.bytedance.club.activtiy.DF;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.entry.BookChapterContentResult;
 import com.bytedance.club.entry.BookFreeCachePackage;
+import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.ReaderRemoteRepository;
-import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.publics.Constant;
-import com.bytedance.club.activtiy.DF;
-import com.bytedance.club.activtiy.BookManager;
 
 import org.greenrobot.eventbus.EventBus;
 

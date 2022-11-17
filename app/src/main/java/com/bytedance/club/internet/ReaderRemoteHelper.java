@@ -2,9 +2,9 @@ package com.bytedance.club.internet;
 
 import android.os.Build;
 
+import com.bytedance.club.activtiy.LogUtils;
 import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.BasePackageBean;
-import com.bytedance.club.activtiy.LogUtils;
 import com.google.gson.Gson;
 
 import java.io.IOException;

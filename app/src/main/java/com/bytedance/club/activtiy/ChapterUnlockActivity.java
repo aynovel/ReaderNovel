@@ -10,12 +10,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.ChapterUnlockBean;
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.adapter.ChapterUnlockAdapter;
 import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.entry.ChapterUnlockBean;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.fresh.LoadFooterView;
 import com.bytedance.club.publics.fresh.weight.BaseFooterView;

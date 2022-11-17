@@ -8,14 +8,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.text.TextUtils;
 
+import com.bytedance.club.activtiy.ReadActivity;
 import com.bytedance.club.activtiy.WerActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.entry.DiscoverBean;
 import com.bytedance.club.entry.InboxBean;
 import com.bytedance.club.entry.RecList;
 import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.activtiy.WorkDetailActivity;
-import com.bytedance.club.activtiy.ReadActivity;
 
 import java.util.List;
 

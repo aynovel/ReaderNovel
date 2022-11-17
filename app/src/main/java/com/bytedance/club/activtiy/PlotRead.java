@@ -22,13 +22,13 @@ import androidx.annotation.IntDef;
 
 import com.bytedance.club.BuildConfig;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.entry.AppUser;
+import com.bytedance.club.interfaces.AppCrashHandler;
 import com.bytedance.club.manage.DataPointUploadManager;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.MyActivityManager;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
-import com.bytedance.club.interfaces.AppCrashHandler;
 import com.facebook.appevents.AppEventsLogger;
 import com.kc.openset.OSETSDK;
 import com.kc.openset.ad.OSETRewardVideoCache;

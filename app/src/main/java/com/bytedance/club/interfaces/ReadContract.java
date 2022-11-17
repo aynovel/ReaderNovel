@@ -2,12 +2,12 @@ package com.bytedance.club.interfaces;
 
 import android.app.Activity;
 
+import com.bytedance.club.adapter.TxtChapter;
 import com.bytedance.club.entry.BookBean;
-import com.bytedance.club.entry.ChapterItemBean;
 import com.bytedance.club.entry.BookCommentListResult;
 import com.bytedance.club.entry.BookMoreBuyInfoPackage;
 import com.bytedance.club.entry.BookRecommendListResult;
-import com.bytedance.club.adapter.TxtChapter;
+import com.bytedance.club.entry.ChapterItemBean;
 
 import java.util.List;
 

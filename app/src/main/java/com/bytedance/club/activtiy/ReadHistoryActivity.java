@@ -17,13 +17,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
 import com.bytedance.club.R;
 import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.bookcase.bookweight.EditPopup;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.bookcase.bookweight.EditPopup;
 import com.bytedance.club.publics.BaseRecyclerViewActivity;
 import com.bytedance.club.publics.fresh.weight.BaseFooterView;
 import com.bytedance.club.publics.net.OkHttpResult;
@@ -31,6 +30,7 @@ import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.CustomDialog;
 import com.bytedance.club.publics.tool.GlideUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
+import com.bytedance.club.sql.NoneViewHolder;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

@@ -7,10 +7,10 @@ import android.os.Message;
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.interfaces.InterFace;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.adapter.person.landing.LoginActivity;
+import com.bytedance.club.interfaces.InterFace;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.net.OkHttpUtil;

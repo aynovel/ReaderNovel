@@ -1,8 +1,6 @@
 package com.bytedance.club.weight;
 
 
-import com.bytedance.club.weight.YYAdView;
-
 public class LineInfo {
     private String mLineText;
     private int mStartPos;

@@ -6,10 +6,10 @@ import android.widget.ImageView;
 
 import com.bytedance.club.R;
 import com.bytedance.club.datautils.ISNav;
-import com.bytedance.club.entry.Image;
-import com.bytedance.club.manage.pins;
-import com.bytedance.club.interfaces.OnItemClickListener;
 import com.bytedance.club.entry.ISListConfig;
+import com.bytedance.club.entry.Image;
+import com.bytedance.club.interfaces.OnItemClickListener;
+import com.bytedance.club.manage.pins;
 import com.yuyh.easyadapter.recyclerview.EasyRVAdapter;
 import com.yuyh.easyadapter.recyclerview.EasyRVHolder;
 

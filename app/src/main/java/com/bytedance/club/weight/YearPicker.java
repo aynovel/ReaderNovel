@@ -7,7 +7,6 @@ import android.util.AttributeSet;
 import androidx.annotation.Nullable;
 
 import com.bytedance.club.R;
-import com.bytedance.club.weight.WheelPicker;
 
 import java.util.ArrayList;
 import java.util.Calendar;

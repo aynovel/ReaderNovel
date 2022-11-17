@@ -15,18 +15,18 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.ReadActivity;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Catalog;
+import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.entry.CustomLinearLayoutManager;
 import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.sql.CacheSQLiteHelper;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.JSONUtil;
-import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.sql.CacheSQLiteHelper;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

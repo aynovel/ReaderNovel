@@ -27,16 +27,13 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.PageStyleAdapter;
 import com.bytedance.club.entry.DataPointBean;
 import com.bytedance.club.entry.DataPointType;
-import com.bytedance.club.adapter.PageStyleAdapter;
-import com.bytedance.club.activtiy.ReadActivity;
-import com.bytedance.club.weight.PageLoader;
 import com.bytedance.club.interfaces.PageMode;
 import com.bytedance.club.interfaces.PageStyle;
 import com.bytedance.club.manage.ReadSettingManager;
-import com.bytedance.club.activtiy.BrightnessUtils;
-import com.bytedance.club.activtiy.ScreenUtils;
+import com.bytedance.club.weight.PageLoader;
 import com.google.android.material.appbar.AppBarLayout;
 
 import butterknife.BindView;

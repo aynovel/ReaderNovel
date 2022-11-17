@@ -8,19 +8,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.billingclient.api.BillingClient;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.ADBean;
-import com.bytedance.club.entry.InboxBean;
-import com.bytedance.club.entry.PayInfo;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
 import com.kc.openset.OSETListener;
 import com.kc.openset.OSETSplash;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

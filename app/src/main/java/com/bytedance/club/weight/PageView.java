@@ -1,7 +1,7 @@
 package com.bytedance.club.weight;
 
-import static com.bytedance.club.interfaces.PageMode.SCROLL;
 import static com.bytedance.club.interfaces.BusC.BUS_NOTIFY_USER_READ_ERROR;
+import static com.bytedance.club.interfaces.PageMode.SCROLL;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,9 +18,9 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
+import com.bytedance.club.activtiy.ToastUtils;
 import com.bytedance.club.entry.BookBean;
 import com.bytedance.club.interfaces.PageMode;
-import com.bytedance.club.activtiy.ToastUtils;
 
 import org.greenrobot.eventbus.EventBus;
 

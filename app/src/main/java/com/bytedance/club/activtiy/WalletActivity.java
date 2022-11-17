@@ -6,10 +6,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.entry.OverLimmitBook;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.BonusOverTimeDialog;

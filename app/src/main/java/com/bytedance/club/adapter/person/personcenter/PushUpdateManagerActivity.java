@@ -18,12 +18,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.bookcase.ShelfUtil;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.bookcase.ShelfUtil;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;
@@ -32,6 +31,7 @@ import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.ManagerDialog;
 import com.bytedance.club.publics.tool.NotificationsUtils;
 import com.bytedance.club.publics.weight.TaskCheckBox;
+import com.bytedance.club.sql.NoneViewHolder;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.greenrobot.eventbus.EventBus;

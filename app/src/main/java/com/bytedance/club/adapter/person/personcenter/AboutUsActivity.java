@@ -7,12 +7,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.AppUser;
-import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.adapter.person.landing.PrivatePolicyActivity;
 import com.bytedance.club.adapter.person.landing.ServiceTermsActivity;
+import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.tool.AndroidManifestUtil;
 import com.bytedance.club.publics.tool.LOG;

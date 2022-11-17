@@ -16,8 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.internet.NetRequest;

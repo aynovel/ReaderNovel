@@ -13,8 +13,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.adapter.RankTypeAdapter;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.RankType;

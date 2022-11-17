@@ -16,8 +16,8 @@ import com.bytedance.club.entry.ShareType;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseWebViewActivity;
 import com.bytedance.club.publics.fresh.weight.BaseHeaderView;
-import com.bytedance.club.publics.tool.LOG;
 import com.bytedance.club.publics.tool.BDeepLinkUtil;
+import com.bytedance.club.publics.tool.LOG;
 import com.bytedance.club.publics.weight.poputil.SharePopup;
 
 import org.greenrobot.eventbus.EventBus;

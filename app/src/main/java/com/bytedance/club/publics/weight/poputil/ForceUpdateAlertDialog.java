@@ -19,8 +19,8 @@ import android.widget.TextView;
 
 import androidx.core.content.FileProvider;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.CommonUtil;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.ApkDownloadManager;

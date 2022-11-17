@@ -2,8 +2,8 @@ package com.bytedance.club.datautils;
 
 import android.graphics.Paint;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;

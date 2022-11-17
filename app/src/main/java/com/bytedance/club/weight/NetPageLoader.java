@@ -4,20 +4,20 @@ import static com.bytedance.club.interfaces.BusC.BUS_NOTIFY_USER_READ_NEXT_CHAPT
 
 import android.os.Message;
 
-import com.bytedance.club.activtiy.PlotRead;
-import com.bytedance.club.adapter.TxtChapter;
-import com.bytedance.club.entry.BookBean;
-import com.bytedance.club.entry.BookRecordBean;
-import com.bytedance.club.entry.ChapterItemBean;
-import com.bytedance.club.sql.DBUtils;
-import com.bytedance.club.datautils.cache.ACache;
 import com.bytedance.club.activtiy.AppUtils;
 import com.bytedance.club.activtiy.BookManager;
 import com.bytedance.club.activtiy.IOUtils;
 import com.bytedance.club.activtiy.LogUtils;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.activtiy.TimeUtils;
 import com.bytedance.club.activtiy.ToastUtils;
+import com.bytedance.club.adapter.TxtChapter;
+import com.bytedance.club.datautils.cache.ACache;
+import com.bytedance.club.entry.BookBean;
+import com.bytedance.club.entry.BookRecordBean;
+import com.bytedance.club.entry.ChapterItemBean;
 import com.bytedance.club.interfaces.BusC;
+import com.bytedance.club.sql.DBUtils;
 
 import org.greenrobot.eventbus.EventBus;
 

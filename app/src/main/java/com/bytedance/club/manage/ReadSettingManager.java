@@ -1,11 +1,11 @@
 package com.bytedance.club.manage;
 
-import com.bytedance.club.weight.LayoutMode;
-import com.bytedance.club.interfaces.PageMode;
-import com.bytedance.club.interfaces.PageStyle;
 import com.bytedance.club.activtiy.Cods;
 import com.bytedance.club.activtiy.ScreenUtils;
 import com.bytedance.club.activtiy.SharedPreUtils;
+import com.bytedance.club.interfaces.PageMode;
+import com.bytedance.club.interfaces.PageStyle;
+import com.bytedance.club.weight.LayoutMode;
 
 public class ReadSettingManager {
     /*************实在想不出什么好记的命名方式。。******************/

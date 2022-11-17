@@ -15,9 +15,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.BookManager;
 import com.bytedance.club.entry.ChapterItemBean;
 import com.bytedance.club.sql.DBUtils;
-import com.bytedance.club.activtiy.BookManager;
 
 import java.util.List;
 

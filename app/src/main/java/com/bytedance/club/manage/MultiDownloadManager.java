@@ -5,15 +5,15 @@ import android.content.Intent;
 import android.os.Message;
 import android.text.TextUtils;
 
+import com.bytedance.club.activtiy.DF;
 import com.bytedance.club.activtiy.PlotRead;
-import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.sql.CacheSQLiteHelper;
 import com.bytedance.club.adapter.person.landing.LoginActivity;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.JSONUtil;
-import com.bytedance.club.activtiy.DF;
+import com.bytedance.club.sql.CacheSQLiteHelper;
 
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONArray;

@@ -7,12 +7,12 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.internet.NetRequest;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.adapter.person.personcenter.adapter.ProblemAdapter;
 import com.bytedance.club.adapter.person.personcenter.bean.ProblemBean;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.JSONUtil;

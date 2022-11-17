@@ -9,8 +9,8 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.tool.AndroidManifestUtil;
 

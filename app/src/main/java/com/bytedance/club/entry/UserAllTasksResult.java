@@ -1,7 +1,5 @@
 package com.bytedance.club.entry;
 
-import com.bytedance.club.entry.TaskDetailBean;
-
 public class UserAllTasksResult {
 
     public String msg;

@@ -5,8 +5,6 @@ import android.util.AttributeSet;
 
 import androidx.annotation.Nullable;
 
-import com.bytedance.club.weight.WheelPicker;
-
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Calendar;

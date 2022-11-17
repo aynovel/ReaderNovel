@@ -15,12 +15,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.Work;
 import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.Work;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.GlideUtil;
+import com.bytedance.club.sql.NoneViewHolder;
 import com.google.common.base.Joiner;
 
 import java.util.ArrayList;

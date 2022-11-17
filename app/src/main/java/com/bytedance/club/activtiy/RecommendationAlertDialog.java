@@ -20,15 +20,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.RecList;
-import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.adapter.ReadCommendMoreAdapter;
 import com.bytedance.club.entry.DataPointBean;
 import com.bytedance.club.entry.DataPointType;
+import com.bytedance.club.entry.RecList;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.CustomIntent;
 import com.bytedance.club.publics.tool.DeepLinkUtil;
 import com.bytedance.club.publics.tool.GlideUtil;
-import com.bytedance.club.adapter.ReadCommendMoreAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

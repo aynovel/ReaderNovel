@@ -1,8 +1,8 @@
 package com.bytedance.club.activtiy;
 
-import static com.bytedance.club.internet.NetRequest.base64;
 import static com.bytedance.club.activtiy.HomeActivity.contactList;
 import static com.bytedance.club.activtiy.HomeActivity.version_status;
+import static com.bytedance.club.internet.NetRequest.base64;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -40,17 +40,17 @@ import com.android.billingclient.api.SkuDetails;
 import com.android.billingclient.api.SkuDetailsParams;
 import com.android.billingclient.api.SkuDetailsResponseListener;
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.TopUpAdapter;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
+import com.bytedance.club.adapter.person.pay.PaymentUtil;
+import com.bytedance.club.adapter.person.personcenter.FeedbackActivity;
+import com.bytedance.club.adapter.person.personcenter.UserHelpActivity;
 import com.bytedance.club.entry.PayInfo;
 import com.bytedance.club.entry.TaskReword;
 import com.bytedance.club.entry.TopUpListBean;
 import com.bytedance.club.entry.TopUpListBean.ResultData;
 import com.bytedance.club.interfaces.InterFace;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.TopUpAdapter;
-import com.bytedance.club.adapter.person.landing.LoginActivity;
-import com.bytedance.club.adapter.person.pay.PaymentUtil;
-import com.bytedance.club.adapter.person.personcenter.FeedbackActivity;
-import com.bytedance.club.adapter.person.personcenter.UserHelpActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.OnItemClickListener;
@@ -59,8 +59,8 @@ import com.bytedance.club.publics.tool.DeepLinkUtil;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.TaskCompleteDialog;
-import com.bytedance.club.publics.weight.viewweb.Wei1;
 import com.bytedance.club.publics.weight.viewweb.JsAndroid1;
+import com.bytedance.club.publics.weight.viewweb.Wei1;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

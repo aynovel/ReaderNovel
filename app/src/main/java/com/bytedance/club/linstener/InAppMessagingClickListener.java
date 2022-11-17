@@ -1,25 +1,25 @@
 package com.bytedance.club.linstener;
 
+import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 import static com.bytedance.club.activtiy.HomeActivity.INDEX_BOOK_DISCOVER;
 import static com.bytedance.club.activtiy.HomeActivity.INDEX_BOOK_SHELF;
-import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.bytedance.club.activtiy.PlotRead;
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.activtiy.WorkDetailActivity;
-import com.bytedance.club.activtiy.TopUpActivity;
 import com.bytedance.club.activtiy.HomeActivity;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.TopUpActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
 import com.bytedance.club.adapter.person.landing.LoginActivity;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.Work;
 import com.bytedance.club.publics.Hil;
 import com.bytedance.club.publics.tool.GooglePayUtil;
 import com.bytedance.club.publics.tool.MyActivityManager;
-import com.bytedance.club.activtiy.ReadActivity;
 import com.google.firebase.inappmessaging.FirebaseInAppMessagingClickListener;
 import com.google.firebase.inappmessaging.model.Action;
 import com.google.firebase.inappmessaging.model.InAppMessage;

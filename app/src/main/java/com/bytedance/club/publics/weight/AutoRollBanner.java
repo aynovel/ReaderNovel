@@ -25,15 +25,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.activtiy.WerActivity;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.AD;
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.WerActivity;
 import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.AD;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.Work;
 import com.bytedance.club.publics.tool.DisplayUtil;
 import com.bytedance.club.publics.tool.GlideUtil;
-import com.bytedance.club.activtiy.ReadActivity;
 
 import java.util.List;
 

@@ -11,13 +11,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.AutoBuy;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.GlideUtil;
+import com.bytedance.club.sql.NoneViewHolder;
 
 import java.util.List;
 

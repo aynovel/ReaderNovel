@@ -42,20 +42,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.ISListActivity;
 import com.bytedance.club.adapter.FolderListAdapter;
 import com.bytedance.club.adapter.ImageListAdapter;
 import com.bytedance.club.adapter.PreviewAdapter;
-import com.bytedance.club.entry.Folder;
-import com.bytedance.club.entry.Image;
-import com.bytedance.club.interfaces.Callback;
-import com.bytedance.club.manage.pins;
-import com.bytedance.club.interfaces.OnFolderChangeListener;
-import com.bytedance.club.interfaces.OnItemClickListener;
-import com.bytedance.club.entry.ISListConfig;
-import com.bytedance.club.activtiy.ISListActivity;
 import com.bytedance.club.datautils.DisplayUtils;
 import com.bytedance.club.datautils.FileUtils;
 import com.bytedance.club.datautils.LogUtils;
+import com.bytedance.club.entry.Folder;
+import com.bytedance.club.entry.ISListConfig;
+import com.bytedance.club.entry.Image;
+import com.bytedance.club.interfaces.Callback;
+import com.bytedance.club.interfaces.OnFolderChangeListener;
+import com.bytedance.club.interfaces.OnItemClickListener;
+import com.bytedance.club.manage.pins;
 import com.bytedance.club.weight.CustomViewPager;
 
 import java.io.File;

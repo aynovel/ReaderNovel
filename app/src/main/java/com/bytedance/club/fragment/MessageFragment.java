@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.MessageDetailActivity;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.MsgTypeBean;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.activtiy.MessageDetailActivity;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;

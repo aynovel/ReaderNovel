@@ -1,7 +1,7 @@
 package com.bytedance.club.publics.tool;
 
-import static com.bytedance.club.publics.Constant.DATE_FORMATTER_8;
 import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.publics.Constant.DATE_FORMATTER_8;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -15,12 +15,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.entry.SignBean;
 import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.bookcase.ShelfUtil;
-import com.bytedance.club.activtiy.WorkDetailActivity;
-import com.bytedance.club.activtiy.ReadActivity;
 
 
 public class TaskSignDialog extends Dialog implements View.OnClickListener {

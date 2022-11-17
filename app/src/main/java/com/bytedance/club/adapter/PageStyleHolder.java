@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.adapter.ViewHolderImpl;
 
 
 public class PageStyleHolder extends ViewHolderImpl<Drawable> {

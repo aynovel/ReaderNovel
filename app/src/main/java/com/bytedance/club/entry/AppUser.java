@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Message;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;

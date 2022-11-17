@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.BookEndRecommend;
 import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.BookEndRecommend;
 import com.bytedance.club.publics.tool.GlideUtil;
 import com.google.common.base.Joiner;
 

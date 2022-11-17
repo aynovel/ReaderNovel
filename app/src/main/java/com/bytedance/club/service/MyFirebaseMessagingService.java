@@ -14,8 +14,8 @@ import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.activtiy.SplashActivity;
 import com.bytedance.club.activtiy.TaskCenterActivity;
 import com.google.firebase.messaging.FirebaseMessagingService;

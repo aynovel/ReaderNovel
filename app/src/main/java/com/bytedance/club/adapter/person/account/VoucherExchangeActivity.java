@@ -5,8 +5,8 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.net.OkHttpResult;

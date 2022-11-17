@@ -8,8 +8,8 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Looper;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.activtiy.LogUtils;
+import com.bytedance.club.activtiy.PlotRead;
 
 import java.io.BufferedWriter;
 import java.io.File;

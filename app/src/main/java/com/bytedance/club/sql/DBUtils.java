@@ -1,5 +1,6 @@
 package com.bytedance.club.sql;
 
+import com.bytedance.club.activtiy.LogUtils;
 import com.bytedance.club.entry.AutoPayBookBean;
 import com.bytedance.club.entry.AutoPayBookBeanDao;
 import com.bytedance.club.entry.BookMultiDownConfigBean;
@@ -9,7 +10,6 @@ import com.bytedance.club.entry.BookRecordBeanDao;
 import com.bytedance.club.entry.BookUpdateTimeInfoBean;
 import com.bytedance.club.entry.BookUpdateTimeInfoBeanDao;
 import com.bytedance.club.entry.ChapterItemBean;
-import com.bytedance.club.activtiy.LogUtils;
 import com.bytedance.club.entry.ChapterItemBeanDao;
 import com.bytedance.club.entry.DaoSession;
 

@@ -8,8 +8,8 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Voucher;
 import com.bytedance.club.internet.NetRequest;

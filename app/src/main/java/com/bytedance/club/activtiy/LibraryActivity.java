@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.adapter.LibraryAdapter;
 import com.bytedance.club.entry.LibraryBean;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.fresh.LoadFooterView;
 import com.bytedance.club.publics.fresh.RefreshHeaderView;

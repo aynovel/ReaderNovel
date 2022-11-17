@@ -21,11 +21,11 @@ import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.Image;
-import com.bytedance.club.entry.ISCameraConfig;
 import com.bytedance.club.datautils.FileUtils;
 import com.bytedance.club.datautils.LogUtils;
 import com.bytedance.club.datautils.StatusBarCompat;
+import com.bytedance.club.entry.ISCameraConfig;
+import com.bytedance.club.entry.Image;
 
 import java.io.File;
 import java.util.List;

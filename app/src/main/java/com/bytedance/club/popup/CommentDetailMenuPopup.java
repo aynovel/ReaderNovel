@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.PopupWindow;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.CommentReportActivity;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.Comment;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.activtiy.CommentReportActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.Constant;

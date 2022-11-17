@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.adapter.Adapter;
 
 import java.util.List;
 

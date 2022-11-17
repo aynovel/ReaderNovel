@@ -5,8 +5,8 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.interfaces.InterFace;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseWebViewActivity;

@@ -3,9 +3,9 @@ package com.bytedance.club.datautils;
 import android.os.Message;
 
 import com.bytedance.club.entry.SearchKey;
+import com.bytedance.club.publics.Constant;
 import com.bytedance.club.sql.SQLiteManager;
 import com.bytedance.club.sql.SearchSQLiteHelper;
-import com.bytedance.club.publics.Constant;
 
 import org.greenrobot.eventbus.EventBus;
 

@@ -10,9 +10,9 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
 import com.bytedance.club.R;
-import com.bytedance.club.tab.NavigatorHelper;
-import com.bytedance.club.interfaces.ScrollState;
 import com.bytedance.club.interfaces.IPagerNavigator;
+import com.bytedance.club.interfaces.ScrollState;
+import com.bytedance.club.tab.NavigatorHelper;
 import com.bytedance.club.tab.buildins.commonnavigator.abs.CommonNavigatorAdapter;
 import com.bytedance.club.tab.buildins.commonnavigator.abs.IMeasurablePagerTitleView;
 import com.bytedance.club.tab.buildins.commonnavigator.abs.IPagerIndicator;

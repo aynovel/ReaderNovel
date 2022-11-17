@@ -7,8 +7,8 @@ import android.widget.ImageView;
 import com.bytedance.club.R;
 import com.bytedance.club.datautils.ISNav;
 import com.bytedance.club.entry.Folder;
-import com.bytedance.club.interfaces.OnFolderChangeListener;
 import com.bytedance.club.entry.ISListConfig;
+import com.bytedance.club.interfaces.OnFolderChangeListener;
 import com.yuyh.easyadapter.abslistview.EasyLVAdapter;
 import com.yuyh.easyadapter.abslistview.EasyLVHolder;
 

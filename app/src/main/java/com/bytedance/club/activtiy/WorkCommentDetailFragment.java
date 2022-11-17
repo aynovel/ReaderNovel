@@ -14,13 +14,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.CommentDetailAdapter;
+import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Comment;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.CommentDetailAdapter;
 import com.bytedance.club.popup.CommentDetailMenuPopup;
-import com.bytedance.club.adapter.person.landing.LoginActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.fresh.LoadFooterView;

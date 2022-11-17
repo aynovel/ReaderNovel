@@ -31,8 +31,8 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;

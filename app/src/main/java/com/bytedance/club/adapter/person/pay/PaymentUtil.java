@@ -1,9 +1,9 @@
 package com.bytedance.club.adapter.person.pay;
 
 import com.bytedance.club.entry.PayInfo;
+import com.bytedance.club.publics.Constant;
 import com.bytedance.club.sql.PaymentSQLiteHelper;
 import com.bytedance.club.sql.SQLiteManager;
-import com.bytedance.club.publics.Constant;
 
 import java.util.List;
 

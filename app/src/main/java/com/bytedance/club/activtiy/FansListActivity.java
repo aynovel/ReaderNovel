@@ -11,7 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
 import com.bytedance.club.R;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Person;
@@ -23,6 +22,7 @@ import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.GlideUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.weight.LevelView;
+import com.bytedance.club.sql.NoneViewHolder;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

@@ -1,7 +1,5 @@
 package com.bytedance.club.entry;
 
-import com.bytedance.club.entry.BasePackageBean;
-import com.bytedance.club.entry.BookModifyInfoResult;
 import com.google.gson.annotations.SerializedName;
 
 public class BookModifyInfoPackage extends BasePackageBean {

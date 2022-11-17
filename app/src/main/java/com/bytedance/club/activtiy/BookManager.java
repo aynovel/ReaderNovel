@@ -3,9 +3,9 @@ package com.bytedance.club.activtiy;
 
 import android.os.Message;
 
-import com.bytedance.club.sql.DBUtils;
 import com.bytedance.club.datautils.cache.ACache;
 import com.bytedance.club.interfaces.BusC;
+import com.bytedance.club.sql.DBUtils;
 
 import org.greenrobot.eventbus.EventBus;
 

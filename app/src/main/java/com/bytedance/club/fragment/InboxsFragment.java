@@ -12,21 +12,21 @@ import android.view.View;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.activtiy.WerActivity;
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
-import com.bytedance.club.entry.InboxBean;
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.internet.NetRequest;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.WerActivity;
 import com.bytedance.club.activtiy.WorkDetailActivity;
 import com.bytedance.club.adapter.InboxAdapter;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.InboxBean;
+import com.bytedance.club.entry.Work;
+import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.DeepLinkUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
-import com.bytedance.club.activtiy.ReadActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

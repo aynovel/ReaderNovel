@@ -5,19 +5,19 @@ import static com.bytedance.club.publics.Constant.ADD_BOUNS_SUCCESS;
 import android.app.Activity;
 import android.os.Message;
 
-import com.bytedance.club.entry.TaskReword;
 import com.bytedance.club.entry.TaskDetailBean;
 import com.bytedance.club.entry.TaskItemBean;
+import com.bytedance.club.entry.TaskReword;
 import com.bytedance.club.entry.UserAllTasksPackage;
 import com.bytedance.club.entry.UserDiscountTaskRewardPackage;
 import com.bytedance.club.entry.UserDiscountTaskRewardResult;
 import com.bytedance.club.entry.UserReadingTimeTaskRewardPackage;
 import com.bytedance.club.entry.UserRecevieTaskRewardPackage;
 import com.bytedance.club.entry.UserRecevieTaskRewardResult;
+import com.bytedance.club.interfaces.ReceviedRewardCallBack;
 import com.bytedance.club.internet.ReaderRemoteRepository;
 import com.bytedance.club.publics.tool.TaskCompleteDialog;
 import com.bytedance.club.publics.tool.TimeUtil;
-import com.bytedance.club.interfaces.ReceviedRewardCallBack;
 
 import org.greenrobot.eventbus.EventBus;
 

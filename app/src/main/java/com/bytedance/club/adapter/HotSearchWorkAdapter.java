@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.Work;
 import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.Work;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.DeepLinkUtil;
 import com.bytedance.club.publics.tool.GlideUtil;

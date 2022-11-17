@@ -6,11 +6,11 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.adapter.person.pay.RechargeCallback;
 import com.bytedance.club.interfaces.InterFace;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.person.pay.RechargeCallback;
 import com.bytedance.club.publics.BaseWebViewActivity;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.JSONUtil;

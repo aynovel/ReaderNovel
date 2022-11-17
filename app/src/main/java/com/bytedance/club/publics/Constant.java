@@ -7,8 +7,8 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.util.Log;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 
 import java.util.Locale;
 

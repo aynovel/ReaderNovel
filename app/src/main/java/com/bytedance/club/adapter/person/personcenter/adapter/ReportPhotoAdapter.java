@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.publics.tool.GlideUtil;
 import com.bytedance.club.adapter.AppendableAdapter;
+import com.bytedance.club.publics.tool.GlideUtil;
 
 public class ReportPhotoAdapter extends AppendableAdapter<String> {
 

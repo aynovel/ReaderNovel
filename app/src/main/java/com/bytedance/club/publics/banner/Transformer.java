@@ -2,7 +2,6 @@ package com.bytedance.club.publics.banner;
 
 import androidx.viewpager.widget.ViewPager.PageTransformer;
 
-
 import com.bytedance.club.publics.banner.transformer.DepthPageTransformer;
 import com.bytedance.club.publics.banner.transformer.ScaleTransformer;
 import com.bytedance.club.publics.banner.transformer.TabletTransformer;

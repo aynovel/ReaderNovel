@@ -12,13 +12,13 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.activtiy.TopUpActivity;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.RewardInfo;
 import com.bytedance.club.entry.Work;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.activtiy.TopUpActivity;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;

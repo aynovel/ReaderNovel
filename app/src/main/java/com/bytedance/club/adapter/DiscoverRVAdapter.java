@@ -1,7 +1,7 @@
 package com.bytedance.club.adapter;
 
-import static com.bytedance.club.publics.Constant.ZERO;
 import static com.bytedance.club.activtiy.Cods.EXTRA_COLL_BOOK;
+import static com.bytedance.club.publics.Constant.ZERO;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,15 +17,15 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bytedance.club.activtiy.WerActivity;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.LibraryActivity;
+import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.WerActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.CollBookBean;
 import com.bytedance.club.entry.DiscoverBean;
 import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.activtiy.WorkDetailActivity;
-import com.bytedance.club.activtiy.LibraryActivity;
 import com.bytedance.club.publics.tool.GlideUtil;
-import com.bytedance.club.activtiy.ReadActivity;
 
 import java.io.Serializable;
 import java.util.List;

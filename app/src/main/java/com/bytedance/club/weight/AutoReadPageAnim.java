@@ -7,8 +7,8 @@ import android.graphics.drawable.GradientDrawable;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.bytedance.club.manage.ReadSettingManager;
 import com.bytedance.club.activtiy.LogUtils;
+import com.bytedance.club.manage.ReadSettingManager;
 
 
 

@@ -13,9 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.entry.TaskItemBean;
 import com.bytedance.club.entry.TaskType;
 import com.bytedance.club.entry.TaskTypeState;
-import com.bytedance.club.entry.TaskItemBean;
 
 public class TaskAdapter extends AppendableAdapter<TaskItemBean> {
 

@@ -23,11 +23,11 @@ import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.SkuDetails;
 import com.android.billingclient.api.SkuDetailsParams;
 import com.android.billingclient.api.SkuDetailsResponseListener;
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.adapter.person.pay.PaymentUtil;
 import com.bytedance.club.entry.PayInfo;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.person.pay.PaymentUtil;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.weight.poputil.LoadingAlertDialog;
 

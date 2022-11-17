@@ -6,10 +6,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.activtiy.WorkDetailActivity;
 import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.activtiy.WorkDetailActivity;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.Work;
 
 public class BDeepLinkUtil {
 

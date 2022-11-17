@@ -9,9 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.BeanParser;
 import com.bytedance.club.entry.Message;
 import com.bytedance.club.internet.NetRequest;
@@ -19,6 +18,7 @@ import com.bytedance.club.publics.BaseRecyclerViewFragment;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.ComYou;
 import com.bytedance.club.publics.tool.JSONUtil;
+import com.bytedance.club.sql.NoneViewHolder;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

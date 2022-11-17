@@ -18,13 +18,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.SignBean;
-import com.bytedance.club.entry.Work;
-import com.bytedance.club.entry.CollBookBean;
-import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.activtiy.ReadActivity;
 import com.bytedance.club.activtiy.WorkDetailActivity;
 import com.bytedance.club.adapter.SignRVAdapter;
-import com.bytedance.club.activtiy.ReadActivity;
+import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.entry.CollBookBean;
+import com.bytedance.club.entry.SignBean;
+import com.bytedance.club.entry.Work;
 
 
 public class SignDialog extends Dialog implements View.OnClickListener {

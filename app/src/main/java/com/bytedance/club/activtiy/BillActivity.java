@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.BillAdapter;
 import com.bytedance.club.entry.BillBean;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.BillAdapter;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.fresh.LoadFooterView;
 import com.bytedance.club.publics.fresh.weight.BaseFooterView;

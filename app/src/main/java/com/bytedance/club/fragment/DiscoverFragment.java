@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.DiscoversAdapter;
 import com.bytedance.club.entry.DiscoverBean;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.DiscoversAdapter;
 import com.bytedance.club.publics.BaseFragment;
 import com.bytedance.club.publics.fresh.FeaturedRefreshHeaderView;
 import com.bytedance.club.publics.fresh.weight.BaseHeaderView;

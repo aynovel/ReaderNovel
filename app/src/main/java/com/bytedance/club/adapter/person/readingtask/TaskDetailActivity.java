@@ -4,8 +4,8 @@ import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.entry.Task;
 import com.bytedance.club.internet.NetRequest;
 import com.bytedance.club.publics.BaseActivity;

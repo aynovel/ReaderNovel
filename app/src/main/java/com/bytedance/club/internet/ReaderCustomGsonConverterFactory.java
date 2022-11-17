@@ -2,9 +2,9 @@ package com.bytedance.club.internet;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
+import com.bytedance.club.entry.ChapterItemBean;
 import com.bytedance.club.entry.MoreBuy;
 import com.bytedance.club.entry.TaskReword;
-import com.bytedance.club.entry.ChapterItemBean;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializationContext;

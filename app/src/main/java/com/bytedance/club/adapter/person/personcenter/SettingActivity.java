@@ -8,15 +8,15 @@ import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bytedance.club.activtiy.PlotRead;
 import com.bytedance.club.R;
+import com.bytedance.club.activtiy.PlotRead;
+import com.bytedance.club.bookcase.ShelfUtil;
+import com.bytedance.club.datautils.GlideCacheUtil;
 import com.bytedance.club.entry.AppUser;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.bookcase.ShelfUtil;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.net.OkHttpResult;
-import com.bytedance.club.datautils.GlideCacheUtil;
 import com.bytedance.club.publics.tool.JSONUtil;
 import com.bytedance.club.publics.tool.SharedPreferencesUtil;
 import com.bytedance.club.publics.weight.KOL;

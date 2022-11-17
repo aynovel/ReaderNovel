@@ -10,11 +10,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bytedance.club.sql.NoneViewHolder;
 import com.bytedance.club.R;
 import com.bytedance.club.entry.Voucher;
 import com.bytedance.club.publics.Constant;
 import com.bytedance.club.publics.tool.ComYou;
+import com.bytedance.club.sql.NoneViewHolder;
 
 import java.util.List;
 import java.util.Locale;

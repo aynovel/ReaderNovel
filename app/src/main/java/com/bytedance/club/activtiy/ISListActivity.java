@@ -26,12 +26,12 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import com.bytedance.club.R;
-import com.bytedance.club.interfaces.Callback;
-import com.bytedance.club.manage.pins;
-import com.bytedance.club.entry.ISListConfig;
-import com.bytedance.club.fragment.ImgSelFragment;
 import com.bytedance.club.datautils.FileUtils;
 import com.bytedance.club.datautils.StatusBarCompat;
+import com.bytedance.club.entry.ISListConfig;
+import com.bytedance.club.fragment.ImgSelFragment;
+import com.bytedance.club.interfaces.Callback;
+import com.bytedance.club.manage.pins;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -15,8 +15,8 @@ import android.view.Window;
 import android.widget.TextView;
 
 import com.bytedance.club.R;
-import com.bytedance.club.entry.Task;
 import com.bytedance.club.adapter.person.account.VoucherActivity;
+import com.bytedance.club.entry.Task;
 import com.bytedance.club.publics.Constant;
 
 import java.util.Locale;

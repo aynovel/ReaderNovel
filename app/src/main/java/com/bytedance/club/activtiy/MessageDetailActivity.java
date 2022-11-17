@@ -29,9 +29,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bytedance.club.R;
+import com.bytedance.club.adapter.MessageDetailAdapter;
 import com.bytedance.club.entry.MsgDetailBean;
 import com.bytedance.club.internet.NetRequest;
-import com.bytedance.club.adapter.MessageDetailAdapter;
 import com.bytedance.club.publics.BaseActivity;
 import com.bytedance.club.publics.net.OkHttpResult;
 import com.bytedance.club.publics.tool.CustomToast;
