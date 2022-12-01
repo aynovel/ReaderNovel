@@ -45,7 +45,7 @@ public class Task implements Parcelable {
     public Task() {
     }
 
-    protected Task(Parcel in) {
+    public Task(Parcel in) {
         this.id = in.readInt();
         this.type = in.readInt();
         this.title = in.readString();

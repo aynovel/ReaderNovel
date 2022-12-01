@@ -826,37 +826,37 @@ public class HomeActivity extends BaseFragmentActivity {
      * 获取升级版本信息及系统参数
      */
     private void getVersionUpdate() {
-        NetRequest.versionUpdate(new OkHttpResult() {
-
-            @Override
-            public void onSuccess(JSONObject data) {
-                String serverNo = JSONUtil.getString(data, "ServerNo");
-                if (SN000.equals(serverNo)) {
-                    JSONObject result = JSONUtil.getJSONObject(data, "ResultData");
-                    int status = JSONUtil.getInt(result, "status");
-                    if (status == ONE) {
-                        JSONObject versionInfo = JSONUtil.getJSONObject(result, "version");
-                        String version = JSONUtil.getString(versionInfo, "version");
-                        String link = JSONUtil.getString(versionInfo, "link");
-                        String introduction = JSONUtil.getString(versionInfo, "introduction");
-                        int is_force = JSONUtil.getInt(versionInfo, "is_force");
-                        /*if (needUpdate(version) && PlotRead.getConfig().getBoolean(version, TRUE)) {*/
-                        if (needUpdate(version)) {
-                            if (is_force == ZERO) { // 非强制
-                                NormalUpdateAlertDialog.show(HomeActivity.this, version, introduction, link);
-                            } else {
-                                ForceUpdateAlertDialog.show(HomeActivity.this, version, introduction, link);
-                            }
-                        }
-                    }
-                }
-            }
-
-            @Override
-            public void onFailure(String error) {
-
-            }
-        });
+//        NetRequest.versionUpdate(new OkHttpResult() {
+//
+//            @Override
+//            public void onSuccess(JSONObject data) {
+//                String serverNo = JSONUtil.getString(data, "ServerNo");
+//                if (SN000.equals(serverNo)) {
+//                    JSONObject result = JSONUtil.getJSONObject(data, "ResultData");
+//                    int status = JSONUtil.getInt(result, "status");
+//                    if (status == ONE) {
+//                        JSONObject versionInfo = JSONUtil.getJSONObject(result, "version");
+//                        String version = JSONUtil.getString(versionInfo, "version");
+//                        String link = JSONUtil.getString(versionInfo, "link");
+//                        String introduction = JSONUtil.getString(versionInfo, "introduction");
+//                        int is_force = JSONUtil.getInt(versionInfo, "is_force");
+//                        /*if (needUpdate(version) && PlotRead.getConfig().getBoolean(version, TRUE)) {*/
+//                        if (needUpdate(version)) {
+//                            if (is_force == ZERO) { // 非强制
+//                                NormalUpdateAlertDialog.show(HomeActivity.this, version, introduction, link);
+//                            } else {
+//                                ForceUpdateAlertDialog.show(HomeActivity.this, version, introduction, link);
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//
+//            @Override
+//            public void onFailure(String error) {
+//
+//            }
+//        });
     }
 
 

@@ -297,9 +297,9 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
-        <activity
-            android:name="com.bytedance.club.BoyiWebActivity"
-            android:screenOrientation="portrait" />
+<!--        <activity-->
+<!--            android:name="com.bytedance.club.BoyiWebActivity"-->
+<!--            android:screenOrientation="portrait" />-->
         <activity
             android:name="com.bytedance.club.publics.Hil"
             android:screenOrientation="portrait" />
